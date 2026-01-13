@@ -1,0 +1,105 @@
+Total de apps: 102
+Páginas scrapeadas: 9
+
+1. Triboni for bexio
+2. Kontera
+3. firm-it
+4. TRESIO
+5. Worldline
+6. saldia Onlineshop für bexio
+7. KS Inkasso
+8. Clockodo
+9. PepperShop POS
+10. RESTORE-IT Backup
+11. 2getHR
+12. TimeStatement
+13. PepperShop Onlineshop
+14. bexio Pay
+15. Marketingstrategie-Generator | QOYO.io
+16. sproutAnalytics
+17. SumUp & PepperShop Kassenlösung
+18. wechselstube.ch
+19. Shopify Connector by Helvy
+20. bexio Go
+21. Fakturino
+22. brolio
+23. Candia.io
+24. Business Transaction – Unternehmensbewertung für KMU
+25. BETREIBUNGSSCHALTER-PLUS
+26. Squadra
+27. swiDOC
+28. Work2Report
+29. Factoring & Inkasso
+30. Swiss Newsletter
+31. Calenso
+32. Delivery+ Planzer Etiketten by BedayaConnect
+33. Delivery+ DPD Etiketten by BedayaConnect
+34. SMAILD
+35. DocuWare für bexio
+36. tik-tak
+37. WooCommerce Connector by Helvy
+38. eBill von iomarket AG
+39. Social EDI - gate2b
+40. Hubspot Connector
+41. Qlerqs – Buchhaltungsroboter
+42. Easyplan
+43. blueAUDIT
+44. app.rombro.ch
+45. Craftboxx
+46. Business Transaction – Unternehmensnachfolge
+47. Arvato Financial Solutions
+48. SPESEN.AI
+49. Legally ok
+50. NetMailer Newsletter-Tool
+51. Swiss Digital Shipping Solutions
+52. Companion
+53. awork
+54. VisualNumbers
+55. My-Onlineshop
+56. Expensly
+57. Local SEO
+58. AESTICO
+59. aumico.io
+60. mailXpert
+61. Triboni Drive for bexio
+62. PrivacyBee
+63. Worldline Tap on Mobile
+64. Ecwid by BedayaConnect
+65. moneyhouse – Handelsregister-Service
+66. eTermin
+67. SumUp by BedayaConnect
+68. Zytrack
+69. Konsento - Aktienmanagement
+70. Edelwise
+71. Corebility
+72. wwcom smart call
+73. SwissDKM für SEO und KI-GEO
+74. QR Modul
+75. TinkTime
+76. Handelsregisteränderung
+77. smiit Analytics
+78. Meisterwerk
+79. Rechtsschutzversicherung
+80. Omnilex
+81. JobCloud - jobs.ch & jobup.ch
+82. biscau
+83. Zapier Connector
+84. Accrio · CSV Importer
+85. XfleX für Gebäudetechnik
+86. Shopware Schnittstelle für bexio
+87. Alloy Ads
+88. JUSTgreen
+89. jobalino
+90. XfleX für Maler
+91. Arcavis
+92. Aequitec
+93. Accrio · Fixed Assets
+94. Microsoft Power BI
+95. TimeShepherd
+96. Cyberrisiko-Monitoring
+97. SwissCall.net
+98. Revoxio
+99. HOMER
+100. bexio Pipedrive Data Transfer App
+101. Accrio · Accruals
+102. bexlook
