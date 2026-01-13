@@ -20,7 +20,7 @@ async def lifespan(app: FastAPI):
     """
     # Startup
     print("🚀 Starting up M01N API...")
-    await init_db()
+    #await init_db()
     print("✅ Database initialized")
     
     yield
