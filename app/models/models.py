@@ -1,37 +1,22 @@
 """
 Example Database Model
 """
-from sqlalchemy import Column, Integer, String, DateTime, Boolean
+from sqlalchemy import Column, Integer, String, DateTime, Boolean, Text
 from sqlalchemy.sql import func
 from app.database import Base
 
-
-class User(Base):
-    """User model example"""
-    __tablename__ = "users"
+class Application(Base):
+    """Application model for bexio marketplace apps"""
+    __tablename__ = "applications"
 
     id = Column(Integer, primary_key=True, index=True)
-    email = Column(String, unique=True, index=True, nullable=False)
-    username = Column(String, unique=True, index=True, nullable=False)
-    hashed_password = Column(String, nullable=False)
-    is_active = Column(Boolean, default=True)
+    name = Column(String, nullable=False, index=True)
+    short_description = Column(Text, nullable=True)
+    link = Column(String, nullable=False)
+    image = Column(String, nullable=True)
+    price = Column(String, nullable=True)
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     updated_at = Column(DateTime(timezone=True), onupdate=func.now())
 
     def __repr__(self):
-        return f"<User {self.username}>"
-
-
-class Item(Base):
-    """Item model example"""
-    __tablename__ = "items"
-
-    id = Column(Integer, primary_key=True, index=True)
-    title = Column(String, index=True, nullable=False)
-    description = Column(String, nullable=True)
-    is_active = Column(Boolean, default=True)
-    created_at = Column(DateTime(timezone=True), server_default=func.now())
-    updated_at = Column(DateTime(timezone=True), onupdate=func.now())
-
-    def __repr__(self):
-        return f"<Item {self.title}>"
+        return f"<Application {self.name}>"

@@ -5,7 +5,7 @@ Run this script to create all tables in the database.
 """
 import asyncio
 from app.database import init_db, engine
-from app.models.models import User, Item  # Import all models
+from app.models.models import Application  # Import all models
 
 
 async def main():
