@@ -1,0 +1,1268 @@
+Total de apps procesadas: 100
+================================================================================
+
+1. Worldline
+   URL: https://marketplace.bexio.com/en-GB/apps/126105/worldline
+   Categorías (1):
+     - Sales
+   Industrias (10):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+2. saldia Onlineshop for bexio
+   URL: https://marketplace.bexio.com/en-GB/apps/126119/saldia-onlineshop-for-bexio
+   Categorías (1):
+     - Sales
+   Industrias (4):
+     - Trade & E-Commerce
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Associations, Organizations & NPO
+
+--------------------------------------------------------------------------------
+
+3. Triboni for bexio
+   URL: https://marketplace.bexio.com/en-GB/apps/126191/triboni-for-bexio
+   Categorías (3):
+     - Security & digital archiving
+     - Receipts & expenses
+     - Finances & Accounting
+   Industrias (3):
+     - Top App
+     - Developed for bexio
+     - For bexio fiduciaries
+
+--------------------------------------------------------------------------------
+
+4. Kontera
+   URL: https://marketplace.bexio.com/en-GB/apps/126265/kontera
+   Categorías (2):
+     - Receipts & expenses
+     - Finances & Accounting
+   Industrias (10):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+5. firm-it
+   URL: https://marketplace.bexio.com/en-GB/apps/126442/firm-it
+   Categorías (1):
+     - Connector apps
+   Industrias (1):
+     - Services & IT
+
+--------------------------------------------------------------------------------
+
+6. KS Inkasso
+   URL: https://marketplace.bexio.com/en-GB/apps/125899/ks-inkasso
+   Categorías (1):
+     - Finances & Accounting
+   Industrias (2):
+     - Top App
+     - Developed for bexio
+
+--------------------------------------------------------------------------------
+
+7. Clockodo
+   URL: https://marketplace.bexio.com/en-GB/apps/126037/clockodo
+   Categorías (1):
+     - Time tracking & appointment scheduling
+   Industrias (10):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+8. sproutAnalytics
+   URL: https://marketplace.bexio.com/en-GB/apps/126155/sproutanalytics
+   Categorías (1):
+     - Analytics & reporting
+   Industrias (10):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+9. SumUp & PepperShop POS solution
+   URL: https://marketplace.bexio.com/en-GB/apps/126263/sumup-peppershop-pos-solution
+   Categorías (1):
+     - Sales
+   Industrias (1):
+     - Developed for bexio
+
+--------------------------------------------------------------------------------
+
+10. wechselstube.ch
+   URL: https://marketplace.bexio.com/en-GB/apps/126300/wechselstubech
+   Categorías (1):
+     - Finances & Accounting
+   Industrias (10):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+11. Shopify Connector by Helvy
+   URL: https://marketplace.bexio.com/en-GB/apps/126310/shopify-connector-by-helvy
+   Categorías (2):
+     - Connector apps
+     - Finances & Accounting
+   Industrias (6):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Services & IT
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+12. PepperShop POS
+   URL: https://marketplace.bexio.com/en-GB/apps/126170/peppershop-pos
+   Categorías (1):
+     - Sales
+   Industrias (7):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+13. RESTORE-IT Backup
+   URL: https://marketplace.bexio.com/en-GB/apps/126221/restore-it-backup
+   Categorías (1):
+     - Security & digital archiving
+   Industrias (1):
+     - Developed for bexio
+
+--------------------------------------------------------------------------------
+
+14. 2getHR
+   URL: https://marketplace.bexio.com/en-GB/apps/126334/2gethr
+   Categorías (2):
+     - Time tracking & appointment scheduling
+     - Receipts & expenses
+   Industrias (11):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+     - Agriculture & Environment
+
+--------------------------------------------------------------------------------
+
+15. TimeStatement
+   URL: https://marketplace.bexio.com/en-GB/apps/126438/timestatement
+   Categorías (1):
+     - Time tracking & appointment scheduling
+   Industrias (3):
+     - Construction, Craft & Maintenance
+     - Services & IT
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+16. PepperShop Online Shop
+   URL: https://marketplace.bexio.com/en-GB/apps/126911/peppershop-online-shop
+   Categorías (1):
+     - Sales
+   Industrias (7):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+17. bexio Pay
+   URL: https://marketplace.bexio.com/en-GB/apps/127056/bexio-pay
+   Categorías (1):
+     - Receipts & expenses
+   Industrias (1):
+     - Developed for bexio
+
+--------------------------------------------------------------------------------
+
+18. Marketing Strategy Generator | QOYO.io
+   URL: https://marketplace.bexio.com/en-GB/apps/129789/marketing-strategy-generator-%7C-qoyoio
+   Categorías (1):
+     - CRM & marketing
+   Industrias: Ninguna
+
+--------------------------------------------------------------------------------
+
+19. bexio Go
+   URL: https://marketplace.bexio.com/en-GB/apps/125264/bexio-go
+   Categorías (1):
+     - Receipts & expenses
+   Industrias (1):
+     - Developed for bexio
+
+--------------------------------------------------------------------------------
+
+20. Fakturino
+   URL: https://marketplace.bexio.com/en-GB/apps/133879/fakturino
+   Categorías (1):
+     - Finances & Accounting
+   Industrias (1):
+     - New
+
+--------------------------------------------------------------------------------
+
+21. brolio
+   URL: https://marketplace.bexio.com/en-GB/apps/126088/brolio
+   Categorías (1):
+     - CRM & marketing
+   Industrias (4):
+     - Trade & E-Commerce
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+22. Business Transaction – Company Valuation for SMEs
+   URL: https://marketplace.bexio.com/en-GB/apps/126110/business-transaction-%E2%80%93-company-valuation-for-smes
+   Categorías (1):
+     - Finances & Accounting
+   Industrias (2):
+     - Developed for bexio
+     - For bexio fiduciaries
+
+--------------------------------------------------------------------------------
+
+23. BETREIBUNGSSCHALTER-PLUS
+   URL: https://marketplace.bexio.com/en-GB/apps/126150/betreibungsschalter-plus
+   Categorías (1):
+     - Finances & Accounting
+   Industrias (3):
+     - Trade & E-Commerce
+     - Services & IT
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+24. Squadra
+   URL: https://marketplace.bexio.com/en-GB/apps/126161/squadra
+   Categorías (1):
+     - Industry solutions
+   Industrias (6):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Transport & Logistics
+     - Manufacturing & Production
+
+--------------------------------------------------------------------------------
+
+25. swiDOC
+   URL: https://marketplace.bexio.com/en-GB/apps/126171/swidoc
+   Categorías (1):
+     - Security & digital archiving
+   Industrias (10):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+26. Work2Report
+   URL: https://marketplace.bexio.com/en-GB/apps/126173/work2report
+   Categorías (1):
+     - Time tracking & appointment scheduling
+   Industrias (2):
+     - Services & IT
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+27. Factoring & Debt Collection
+   URL: https://marketplace.bexio.com/en-GB/apps/126219/factoring-debt-collection
+   Categorías (1):
+     - Finances & Accounting
+   Industrias (10):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+28. Swiss Newsletter
+   URL: https://marketplace.bexio.com/en-GB/apps/126232/swiss-newsletter
+   Categorías (1):
+     - CRM & marketing
+   Industrias (4):
+     - Trade & E-Commerce
+     - Services & IT
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+29. Calenso
+   URL: https://marketplace.bexio.com/en-GB/apps/126268/calenso
+   Categorías (1):
+     - Time tracking & appointment scheduling
+   Industrias (5):
+     - Healthcare
+     - Services & IT
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+30. Delivery + Planzer Labels by BedayaConnect
+   URL: https://marketplace.bexio.com/en-GB/apps/126290/delivery-+-planzer-labels-by-bedayaconnect
+   Categorías (1):
+     - Connector apps
+   Industrias (1):
+     - Developed for bexio
+
+--------------------------------------------------------------------------------
+
+31. Delivery + DPD Labels by BedayaConnect
+   URL: https://marketplace.bexio.com/en-GB/apps/126292/delivery-+-dpd-labels-by-bedayaconnect
+   Categorías (1):
+     - Connector apps
+   Industrias (1):
+     - Developed for bexio
+
+--------------------------------------------------------------------------------
+
+32. SMAILD
+   URL: https://marketplace.bexio.com/en-GB/apps/126326/smaild
+   Categorías (1):
+     - Sales
+   Industrias (5):
+     - Trade & E-Commerce
+     - Services & IT
+     - Transport & Logistics
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+33. DocuWare for bexio
+   URL: https://marketplace.bexio.com/en-GB/apps/126362/docuware-for-bexio
+   Categorías (1):
+     - Security & digital archiving
+   Industrias (10):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+34. tik-tak
+   URL: https://marketplace.bexio.com/en-GB/apps/126368/tik-tak
+   Categorías (1):
+     - Time tracking & appointment scheduling
+   Industrias (1):
+     - Developed for bexio
+
+--------------------------------------------------------------------------------
+
+35. WooCommerce Connector by Helvy
+   URL: https://marketplace.bexio.com/en-GB/apps/126377/woocommerce-connector-by-helvy
+   Categorías (1):
+     - Connector apps
+   Industrias (3):
+     - Trade & E-Commerce
+     - Transport & Logistics
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+36. eBill by iomarket AG
+   URL: https://marketplace.bexio.com/en-GB/apps/126626/ebill-by-iomarket-ag
+   Categorías (1):
+     - Sales
+   Industrias (10):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+37. Social EDI - gate2b
+   URL: https://marketplace.bexio.com/en-GB/apps/126704/social-edi---gate2b
+   Categorías (2):
+     - Sales
+     - Finances & Accounting
+   Industrias (10):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+38. Hubspot Connector
+   URL: https://marketplace.bexio.com/en-GB/apps/126761/hubspot-connector
+   Categorías (1):
+     - Connector apps
+   Industrias (7):
+     - Trade & E-Commerce
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Manufacturing & Production
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+39. Qlerqs - AccountingRobot
+   URL: https://marketplace.bexio.com/en-GB/apps/126957/qlerqs---accountingrobot
+   Categorías (1):
+     - Finances & Accounting
+   Industrias (2):
+     - Developed for bexio
+     - For bexio fiduciaries
+
+--------------------------------------------------------------------------------
+
+40. Easyplan
+   URL: https://marketplace.bexio.com/en-GB/apps/127035/easyplan
+   Categorías (1):
+     - Industry solutions
+   Industrias (1):
+     - Gastronomy & Hospitality
+
+--------------------------------------------------------------------------------
+
+41. wwcom smart call
+   URL: https://marketplace.bexio.com/en-GB/apps/127629/wwcom-smart-call
+   Categorías (1):
+     - CRM & marketing
+   Industrias (3):
+     - Trade & E-Commerce
+     - Services & IT
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+42. SwissDKM for SEO and GEO
+   URL: https://marketplace.bexio.com/en-GB/apps/127696/swissdkm-for-seo-and-geo
+   Categorías (1):
+     - CRM & marketing
+   Industrias (8):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+43. QR Module
+   URL: https://marketplace.bexio.com/en-GB/apps/127915/qr-module
+   Categorías (1):
+     - Sales
+   Industrias (10):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+44. TinkTime
+   URL: https://marketplace.bexio.com/en-GB/apps/128497/tinktime
+   Categorías (1):
+     - Time tracking & appointment scheduling
+   Industrias (1):
+     - Healthcare
+
+--------------------------------------------------------------------------------
+
+45. Company modification
+   URL: https://marketplace.bexio.com/en-GB/apps/128530/company-modification
+   Categorías (1):
+     - Finances & Accounting
+   Industrias (4):
+     - Trade & E-Commerce
+     - Services & IT
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+46. smiit Analytics
+   URL: https://marketplace.bexio.com/en-GB/apps/128971/smiit-analytics
+   Categorías (1):
+     - Analytics & reporting
+   Industrias (1):
+     - New
+
+--------------------------------------------------------------------------------
+
+47. Meisterwerk
+   URL: https://marketplace.bexio.com/en-GB/apps/130195/meisterwerk
+   Categorías (4):
+     - CRM & marketing
+     - Time tracking & appointment scheduling
+     - Industry solutions
+     - Analytics & reporting
+   Industrias (1):
+     - Construction, Craft & Maintenance
+
+--------------------------------------------------------------------------------
+
+48. Legal protection insurance
+   URL: https://marketplace.bexio.com/en-GB/apps/130652/legal-protection-insurance
+   Categorías (1):
+     - Security & digital archiving
+   Industrias (1):
+     - New
+
+--------------------------------------------------------------------------------
+
+49. Omnilex
+   URL: https://marketplace.bexio.com/en-GB/apps/130804/omnilex
+   Categorías (1):
+     - Finances & Accounting
+   Industrias (3):
+     - Services & IT
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+
+--------------------------------------------------------------------------------
+
+50. blueAUDIT
+   URL: https://marketplace.bexio.com/en-GB/apps/126083/blueaudit
+   Categorías (2):
+     - Finances & Accounting
+     - Analytics & reporting
+   Industrias (10):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+51. app.rombro.ch | import bookings and invoices from Excel or CSV
+   URL: https://marketplace.bexio.com/en-GB/apps/126085/apprombroch-%7C-import-bookings-and-invoices-from-excel-or-csv
+   Categorías (2):
+     - Sales
+     - Finances & Accounting
+   Industrias (4):
+     - Trade & E-Commerce
+     - Services & IT
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+
+--------------------------------------------------------------------------------
+
+52. Craftboxx
+   URL: https://marketplace.bexio.com/en-GB/apps/126087/craftboxx
+   Categorías (1):
+     - Industry solutions
+   Industrias (1):
+     - Construction, Craft & Maintenance
+
+--------------------------------------------------------------------------------
+
+53. Business Transaction – Business Succession
+   URL: https://marketplace.bexio.com/en-GB/apps/126109/business-transaction-%E2%80%93-business-succession
+   Categorías (1):
+     - Finances & Accounting
+   Industrias (2):
+     - Developed for bexio
+     - For bexio fiduciaries
+
+--------------------------------------------------------------------------------
+
+54. Arvato Financial Solutions
+   URL: https://marketplace.bexio.com/en-GB/apps/126115/arvato-financial-solutions
+   Categorías (1):
+     - Finances & Accounting
+   Industrias (3):
+     - Trade & E-Commerce
+     - Services & IT
+     - Finance & Insurance
+
+--------------------------------------------------------------------------------
+
+55. SPESEN.AI
+   URL: https://marketplace.bexio.com/en-GB/apps/126120/spesenai
+   Categorías (1):
+     - Receipts & expenses
+   Industrias (10):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+56. Legally ok
+   URL: https://marketplace.bexio.com/en-GB/apps/126148/legally-ok
+   Categorías (1):
+     - Security & digital archiving
+   Industrias (3):
+     - Trade & E-Commerce
+     - Services & IT
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+57. NetMailer Newsletter-Tool
+   URL: https://marketplace.bexio.com/en-GB/apps/126149/netmailer-newsletter-tool
+   Categorías (1):
+     - CRM & marketing
+   Industrias (10):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+58. Swiss Digital Shipping Solutions
+   URL: https://marketplace.bexio.com/en-GB/apps/126159/swiss-digital-shipping-solutions
+   Categorías (1):
+     - Sales
+   Industrias (1):
+     - Developed for bexio
+
+--------------------------------------------------------------------------------
+
+59. Companion
+   URL: https://marketplace.bexio.com/en-GB/apps/126163/companion
+   Categorías (1):
+     - CRM & marketing
+   Industrias (9):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+60. awork
+   URL: https://marketplace.bexio.com/en-GB/apps/126172/awork
+   Categorías (1):
+     - Time tracking & appointment scheduling
+   Industrias (2):
+     - Services & IT
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+61. VisualNumbers
+   URL: https://marketplace.bexio.com/en-GB/apps/126174/visualnumbers
+   Categorías (1):
+     - Analytics & reporting
+   Industrias (10):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+62. My-Onlineshop
+   URL: https://marketplace.bexio.com/en-GB/apps/126187/my-onlineshop
+   Categorías (2):
+     - Connector apps
+     - Sales
+   Industrias (1):
+     - Developed for bexio
+
+--------------------------------------------------------------------------------
+
+63. Expensly
+   URL: https://marketplace.bexio.com/en-GB/apps/126189/expensly
+   Categorías (1):
+     - Receipts & expenses
+   Industrias (4):
+     - Construction, Craft & Maintenance
+     - Services & IT
+     - Finance & Insurance
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+64. Local SEO
+   URL: https://marketplace.bexio.com/en-GB/apps/126190/local-seo
+   Categorías (1):
+     - CRM & marketing
+   Industrias (10):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+65. AESTICO
+   URL: https://marketplace.bexio.com/en-GB/apps/126212/aestico
+   Categorías (1):
+     - Industry solutions
+   Industrias (3):
+     - Construction, Craft & Maintenance
+     - Services & IT
+     - Manufacturing & Production
+
+--------------------------------------------------------------------------------
+
+66. aumico annual financial statements
+   URL: https://marketplace.bexio.com/en-GB/apps/126220/aumico-annual-financial-statements
+   Categorías (1):
+     - Finances & Accounting
+   Industrias (3):
+     - Trade & E-Commerce
+     - Services & IT
+     - Finance & Insurance
+
+--------------------------------------------------------------------------------
+
+67. mailXpert
+   URL: https://marketplace.bexio.com/en-GB/apps/126229/mailxpert
+   Categorías (1):
+     - CRM & marketing
+   Industrias (4):
+     - Trade & E-Commerce
+     - Services & IT
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+68. Triboni Drive for bexio
+   URL: https://marketplace.bexio.com/en-GB/apps/126234/triboni-drive-for-bexio
+   Categorías (3):
+     - Security & digital archiving
+     - Receipts & expenses
+     - Finances & Accounting
+   Industrias (2):
+     - Developed for bexio
+     - For bexio fiduciaries
+
+--------------------------------------------------------------------------------
+
+69. PrivacyBee
+   URL: https://marketplace.bexio.com/en-GB/apps/126240/privacybee
+   Categorías (1):
+     - Security & digital archiving
+   Industrias (6):
+     - Trade & E-Commerce
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+70. Worldline Tap on Mobile
+   URL: https://marketplace.bexio.com/en-GB/apps/126283/worldline-tap-on-mobile
+   Categorías (1):
+     - Sales
+   Industrias (6):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Manufacturing & Production
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+71. Ecwid by BedayaConnect
+   URL: https://marketplace.bexio.com/en-GB/apps/126371/ecwid-by-bedayaconnect
+   Categorías (1):
+     - Connector apps
+   Industrias (1):
+     - Developed for bexio
+
+--------------------------------------------------------------------------------
+
+72. moneyhouse – Commercial Register Service
+   URL: https://marketplace.bexio.com/en-GB/apps/126601/moneyhouse-%E2%80%93-commercial-register-service
+   Categorías (1):
+     - Finances & Accounting
+   Industrias (3):
+     - Trade & E-Commerce
+     - Services & IT
+     - Associations, Organizations & NPO
+
+--------------------------------------------------------------------------------
+
+73. eTermin
+   URL: https://marketplace.bexio.com/en-GB/apps/126607/etermin
+   Categorías (1):
+     - Time tracking & appointment scheduling
+   Industrias (10):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+74. SumUp by BedayaConnect
+   URL: https://marketplace.bexio.com/en-GB/apps/126766/sumup-by-bedayaconnect
+   Categorías (1):
+     - Connector apps
+   Industrias (8):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+75. Zytrack
+   URL: https://marketplace.bexio.com/en-GB/apps/126833/zytrack
+   Categorías (1):
+     - Time tracking & appointment scheduling
+   Industrias (10):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+76. Konsento
+   URL: https://marketplace.bexio.com/en-GB/apps/126902/konsento
+   Categorías (1):
+     - Finances & Accounting
+   Industrias (6):
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+77. Edelwise
+   URL: https://marketplace.bexio.com/en-GB/apps/128533/edelwise
+   Categorías (2):
+     - Finances & Accounting
+     - Analytics & reporting
+   Industrias (1):
+     - Finance & Insurance
+
+--------------------------------------------------------------------------------
+
+78. Corebility
+   URL: https://marketplace.bexio.com/en-GB/apps/130702/corebility
+   Categorías (2):
+     - Time tracking & appointment scheduling
+     - Industry solutions
+   Industrias (3):
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+
+--------------------------------------------------------------------------------
+
+79. bexlook
+   URL: https://marketplace.bexio.com/en-GB/apps/125905/bexlook
+   Categorías (1):
+     - CRM & marketing
+   Industrias (1):
+     - Developed for bexio
+
+--------------------------------------------------------------------------------
+
+80. JobCloud - jobs.ch & jobup.ch
+   URL: https://marketplace.bexio.com/en-GB/apps/128294/jobcloud---jobsch-jobupch
+   Categorías (2):
+     - CRM & marketing
+     - Finances & Accounting
+   Industrias (10):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+81. biscau
+   URL: https://marketplace.bexio.com/en-GB/apps/125839/biscau
+   Categorías (2):
+     - Finances & Accounting
+     - Analytics & reporting
+   Industrias (1):
+     - Finance & Insurance
+
+--------------------------------------------------------------------------------
+
+82. Zapier Connector
+   URL: https://marketplace.bexio.com/en-GB/apps/125529/zapier-connector
+   Categorías (1):
+     - Connector apps
+   Industrias (10):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+83. Accrio · CSV Importer
+   URL: https://marketplace.bexio.com/en-GB/apps/126058/accrio-%C2%B7-csv-importer
+   Categorías (1):
+     - Receipts & expenses
+   Industrias (1):
+     - Developed for bexio
+
+--------------------------------------------------------------------------------
+
+84. XfleX for Building Technology
+   URL: https://marketplace.bexio.com/en-GB/apps/126061/xflex-for-building-technology
+   Categorías (1):
+     - Industry solutions
+   Industrias (2):
+     - Construction, Craft & Maintenance
+     - Services & IT
+
+--------------------------------------------------------------------------------
+
+85. Shopware interface for bexio
+   URL: https://marketplace.bexio.com/en-GB/apps/126063/shopware-interface-for-bexio
+   Categorías (1):
+     - Connector apps
+   Industrias (4):
+     - Trade & E-Commerce
+     - Services & IT
+     - Manufacturing & Production
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+86. Alloy Ads
+   URL: https://marketplace.bexio.com/en-GB/apps/131130/alloy-ads
+   Categorías (2):
+     - CRM & marketing
+     - Analytics & reporting
+   Industrias (2):
+     - Services & IT
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+87. JUSTgreen
+   URL: https://marketplace.bexio.com/en-GB/apps/133652/justgreen
+   Categorías (3):
+     - Time tracking & appointment scheduling
+     - Industry solutions
+     - Receipts & expenses
+   Industrias (2):
+     - Construction, Craft & Maintenance
+     - Agriculture & Environment
+
+--------------------------------------------------------------------------------
+
+88. jobalino
+   URL: https://marketplace.bexio.com/en-GB/apps/126055/jobalino
+   Categorías (1):
+     - Industry solutions
+   Industrias (4):
+     - Trade & E-Commerce
+     - Healthcare
+     - Services & IT
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+89. XfleX for Painters
+   URL: https://marketplace.bexio.com/en-GB/apps/126062/xflex-for-painters
+   Categorías (1):
+     - Industry solutions
+   Industrias (2):
+     - Construction, Craft & Maintenance
+     - Services & IT
+
+--------------------------------------------------------------------------------
+
+90. Arcavis
+   URL: https://marketplace.bexio.com/en-GB/apps/128486/arcavis
+   Categorías (1):
+     - Sales
+   Industrias (1):
+     - Trade & E-Commerce
+
+--------------------------------------------------------------------------------
+
+91. Aequitec
+   URL: https://marketplace.bexio.com/en-GB/apps/132156/aequitec
+   Categorías (2):
+     - Finances & Accounting
+     - Analytics & reporting
+   Industrias (1):
+     - New
+
+--------------------------------------------------------------------------------
+
+92. Accrio · Fixed Assets
+   URL: https://marketplace.bexio.com/en-GB/apps/126056/accrio-%C2%B7-fixed-assets
+   Categorías (1):
+     - Finances & Accounting
+   Industrias (1):
+     - Developed for bexio
+
+--------------------------------------------------------------------------------
+
+93. Microsoft Power BI
+   URL: https://marketplace.bexio.com/en-GB/apps/126000/microsoft-power-bi
+   Categorías (1):
+     - Analytics & reporting
+   Industrias (7):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+94. TimeShepherd
+   URL: https://marketplace.bexio.com/en-GB/apps/126002/timeshepherd
+   Categorías (1):
+     - Time tracking & appointment scheduling
+   Industrias (10):
+     - Trade & E-Commerce
+     - Construction, Craft & Maintenance
+     - Healthcare
+     - Gastronomy & Hospitality
+     - Services & IT
+     - Transport & Logistics
+     - Manufacturing & Production
+     - Finance & Insurance
+     - Associations, Organizations & NPO
+     - Agencies & Creatives
+
+--------------------------------------------------------------------------------
+
+95. Cyber Risk Monitoring
+   URL: https://marketplace.bexio.com/en-GB/apps/128378/cyber-risk-monitoring
+   Categorías (2):
+     - Security & digital archiving
+     - Analytics & reporting
+   Industrias (1):
+     - Services & IT
+
+--------------------------------------------------------------------------------
+
+96. SwissCall.net
+   URL: https://marketplace.bexio.com/en-GB/apps/131049/swisscallnet
+   Categorías (1):
+     - Sales
+   Industrias (1):
+     - New
+
+--------------------------------------------------------------------------------
+
+97. Revoxio
+   URL: https://marketplace.bexio.com/en-GB/apps/132388/revoxio
+   Categorías (3):
+     - Connector apps
+     - Receipts & expenses
+     - Finances & Accounting
+   Industrias (2):
+     - Services & IT
+     - Finance & Insurance
+
+--------------------------------------------------------------------------------
+
+98. HOMER
+   URL: https://marketplace.bexio.com/en-GB/apps/134240/homer
+   Categorías (1):
+     - Industry solutions
+   Industrias (1):
+     - New
+
+--------------------------------------------------------------------------------
+
+99. bexio Pipedrive Data Transfer App
+   URL: https://marketplace.bexio.com/en-GB/apps/125842/bexio-pipedrive-data-transfer-app
+   Categorías (1):
+     - Connector apps
+   Industrias (1):
+     - Developed for bexio
+
+--------------------------------------------------------------------------------
+
+100. Accrio · Accruals
+   URL: https://marketplace.bexio.com/en-GB/apps/126057/accrio-%C2%B7-accruals
+   Categorías (1):
+     - Finances & Accounting
+   Industrias (1):
+     - Developed for bexio
+
+--------------------------------------------------------------------------------
+
