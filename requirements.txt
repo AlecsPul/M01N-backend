@@ -19,6 +19,9 @@ supabase==2.3.0
 # OpenAI
 openai==1.54.0
 
+# Database Drivers
+asyncpg==0.29.0
+
 # Environment
 python-dotenv==1.0.0
 
