@@ -18,6 +18,9 @@ class Settings(BaseSettings):
     # Database
     database_url: str
     
+    # OpenAI
+    openai_api_key: str
+    
     # Security
     secret_key: str = "change-this-to-a-secure-secret-key"
     

@@ -9,6 +9,7 @@ from contextlib import asynccontextmanager
 from app.config import settings
 from app.database import init_db, close_db
 from app.api import routes
+from app.api import openai_routes
 
 
 @asynccontextmanager
@@ -48,6 +49,7 @@ app.add_middleware(
 
 # Include routers
 app.include_router(routes.router)
+app.include_router(openai_routes.router)
 
 
 # Root endpoint
