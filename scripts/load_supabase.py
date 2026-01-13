@@ -251,7 +251,37 @@ async def initialize_schema(conn):
         PRIMARY KEY (app_search_id, integration_key)
     );
 
+    CREATE TABLE IF NOT EXISTS apps_tags (
+        id SERIAL PRIMARY KEY,
+        app_id UUID NOT NULL REFERENCES application(id) ON DELETE CASCADE,
+        tag TEXT NOT NULL,
+        created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+    );
+
+    CREATE TABLE IF NOT EXISTS cards (
+        id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+        title TEXT NOT NULL,
+        description TEXT,
+        status INTEGER NOT NULL DEFAULT 0,
+        number_of_requests INTEGER NOT NULL DEFAULT 0,
+        created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+        updated_at TIMESTAMP WITH TIME ZONE
+    );
+
+    CREATE TABLE IF NOT EXISTS card_prompts_comments (
+        id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+        card_id UUID NOT NULL REFERENCES cards(id) ON DELETE CASCADE,
+        prompt_text TEXT NOT NULL,
+        comment_text TEXT,
+        created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+        updated_at TIMESTAMP WITH TIME ZONE
+    );
+
     CREATE INDEX IF NOT EXISTS idx_application_url ON application(url);
+    CREATE INDEX IF NOT EXISTS idx_apps_tags_app_id ON apps_tags(app_id);
+    CREATE INDEX IF NOT EXISTS idx_apps_tags_tag ON apps_tags(tag);
+    CREATE INDEX IF NOT EXISTS idx_cards_status ON cards(status);
+    CREATE INDEX IF NOT EXISTS idx_card_prompts_comments_card_id ON card_prompts_comments(card_id);
     CREATE INDEX IF NOT EXISTS idx_application_search_app_id ON application_search(app_id);
     CREATE INDEX IF NOT EXISTS idx_application_labels_app_search_id ON application_labels(app_search_id);
     CREATE INDEX IF NOT EXISTS idx_application_labels_label ON application_labels(label);

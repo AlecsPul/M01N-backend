@@ -11,7 +11,7 @@ import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from app.core.database import init_db, engine
-from app.models.models import Application, AppTag  # Import all models
+from app.models.models import Application, AppTag, Card, CardPrompt  # Import all models
 
 
 async def main():
