@@ -1,105 +1,309 @@
 Total de apps: 102
 Páginas scrapeadas: 9
 
-1. Triboni for bexio
-2. Kontera
-3. firm-it
-4. TRESIO
-5. Worldline
-6. saldia Onlineshop für bexio
+1. TRESIO
+   https://marketplace.bexio.com/en-GB/apps/126075/tresio
+
+2. Worldline
+   https://marketplace.bexio.com/en-GB/apps/126105/worldline
+
+3. saldia Onlineshop for bexio
+   https://marketplace.bexio.com/en-GB/apps/126119/saldia-onlineshop-for-bexio
+
+4. Triboni for bexio
+   https://marketplace.bexio.com/en-GB/apps/126191/triboni-for-bexio
+
+5. Kontera
+   https://marketplace.bexio.com/en-GB/apps/126265/kontera
+
+6. firm-it
+   https://marketplace.bexio.com/en-GB/apps/126442/firm-it
+
 7. KS Inkasso
+   https://marketplace.bexio.com/en-GB/apps/125899/ks-inkasso
+
 8. Clockodo
-9. PepperShop POS
-10. RESTORE-IT Backup
-11. 2getHR
-12. TimeStatement
-13. PepperShop Onlineshop
-14. bexio Pay
-15. Marketingstrategie-Generator | QOYO.io
-16. sproutAnalytics
-17. SumUp & PepperShop Kassenlösung
-18. wechselstube.ch
-19. Shopify Connector by Helvy
+   https://marketplace.bexio.com/en-GB/apps/126037/clockodo
+
+9. sproutAnalytics
+   https://marketplace.bexio.com/en-GB/apps/126155/sproutanalytics
+
+10. SumUp & PepperShop POS solution
+   https://marketplace.bexio.com/en-GB/apps/126263/sumup-peppershop-pos-solution
+
+11. wechselstube.ch
+   https://marketplace.bexio.com/en-GB/apps/126300/wechselstubech
+
+12. Shopify Connector by Helvy
+   https://marketplace.bexio.com/en-GB/apps/126310/shopify-connector-by-helvy
+
+13. PepperShop POS
+   https://marketplace.bexio.com/en-GB/apps/126170/peppershop-pos
+
+14. RESTORE-IT Backup
+   https://marketplace.bexio.com/en-GB/apps/126221/restore-it-backup
+
+15. 2getHR
+   https://marketplace.bexio.com/en-GB/apps/126334/2gethr
+
+16. TimeStatement
+   https://marketplace.bexio.com/en-GB/apps/126438/timestatement
+
+17. PepperShop Online Shop
+   https://marketplace.bexio.com/en-GB/apps/126911/peppershop-online-shop
+
+18. bexio Pay
+   https://marketplace.bexio.com/en-GB/apps/127056/bexio-pay
+
+19. Marketing Strategy Generator | QOYO.io
+   https://marketplace.bexio.com/en-GB/apps/129789/marketing-strategy-generator-%7C-qoyoio
+
 20. bexio Go
+   https://marketplace.bexio.com/en-GB/apps/125264/bexio-go
+
 21. Fakturino
+   https://marketplace.bexio.com/en-GB/apps/133879/fakturino
+
 22. brolio
+   https://marketplace.bexio.com/en-GB/apps/126088/brolio
+
 23. Candia.io
-24. Business Transaction – Unternehmensbewertung für KMU
+   https://marketplace.bexio.com/en-GB/apps/126102/candiaio
+
+24. Business Transaction – Company Valuation for SMEs
+   https://marketplace.bexio.com/en-GB/apps/126110/business-transaction-%E2%80%93-company-valuation-for-smes
+
 25. BETREIBUNGSSCHALTER-PLUS
+   https://marketplace.bexio.com/en-GB/apps/126150/betreibungsschalter-plus
+
 26. Squadra
+   https://marketplace.bexio.com/en-GB/apps/126161/squadra
+
 27. swiDOC
+   https://marketplace.bexio.com/en-GB/apps/126171/swidoc
+
 28. Work2Report
-29. Factoring & Inkasso
+   https://marketplace.bexio.com/en-GB/apps/126173/work2report
+
+29. Factoring & Debt Collection
+   https://marketplace.bexio.com/en-GB/apps/126219/factoring-debt-collection
+
 30. Swiss Newsletter
+   https://marketplace.bexio.com/en-GB/apps/126232/swiss-newsletter
+
 31. Calenso
-32. Delivery+ Planzer Etiketten by BedayaConnect
-33. Delivery+ DPD Etiketten by BedayaConnect
+   https://marketplace.bexio.com/en-GB/apps/126268/calenso
+
+32. Delivery + Planzer Labels by BedayaConnect
+   https://marketplace.bexio.com/en-GB/apps/126290/delivery-+-planzer-labels-by-bedayaconnect
+
+33. Delivery + DPD Labels by BedayaConnect
+   https://marketplace.bexio.com/en-GB/apps/126292/delivery-+-dpd-labels-by-bedayaconnect
+
 34. SMAILD
-35. DocuWare für bexio
+   https://marketplace.bexio.com/en-GB/apps/126326/smaild
+
+35. DocuWare for bexio
+   https://marketplace.bexio.com/en-GB/apps/126362/docuware-for-bexio
+
 36. tik-tak
+   https://marketplace.bexio.com/en-GB/apps/126368/tik-tak
+
 37. WooCommerce Connector by Helvy
-38. eBill von iomarket AG
+   https://marketplace.bexio.com/en-GB/apps/126377/woocommerce-connector-by-helvy
+
+38. eBill by iomarket AG
+   https://marketplace.bexio.com/en-GB/apps/126626/ebill-by-iomarket-ag
+
 39. Social EDI - gate2b
+   https://marketplace.bexio.com/en-GB/apps/126704/social-edi---gate2b
+
 40. Hubspot Connector
-41. Qlerqs – Buchhaltungsroboter
+   https://marketplace.bexio.com/en-GB/apps/126761/hubspot-connector
+
+41. Qlerqs - AccountingRobot
+   https://marketplace.bexio.com/en-GB/apps/126957/qlerqs---accountingrobot
+
 42. Easyplan
-43. blueAUDIT
-44. app.rombro.ch
-45. Craftboxx
-46. Business Transaction – Unternehmensnachfolge
-47. Arvato Financial Solutions
-48. SPESEN.AI
-49. Legally ok
-50. NetMailer Newsletter-Tool
-51. Swiss Digital Shipping Solutions
-52. Companion
-53. awork
-54. VisualNumbers
-55. My-Onlineshop
-56. Expensly
-57. Local SEO
-58. AESTICO
-59. aumico.io
-60. mailXpert
-61. Triboni Drive for bexio
-62. PrivacyBee
-63. Worldline Tap on Mobile
-64. Ecwid by BedayaConnect
-65. moneyhouse – Handelsregister-Service
-66. eTermin
-67. SumUp by BedayaConnect
-68. Zytrack
-69. Konsento - Aktienmanagement
-70. Edelwise
-71. Corebility
-72. wwcom smart call
-73. SwissDKM für SEO und KI-GEO
-74. QR Modul
-75. TinkTime
-76. Handelsregisteränderung
-77. smiit Analytics
-78. Meisterwerk
-79. Rechtsschutzversicherung
-80. Omnilex
-81. JobCloud - jobs.ch & jobup.ch
-82. biscau
-83. Zapier Connector
-84. Accrio · CSV Importer
-85. XfleX für Gebäudetechnik
-86. Shopware Schnittstelle für bexio
-87. Alloy Ads
-88. JUSTgreen
-89. jobalino
-90. XfleX für Maler
-91. Arcavis
-92. Aequitec
-93. Accrio · Fixed Assets
-94. Microsoft Power BI
-95. TimeShepherd
-96. Cyberrisiko-Monitoring
-97. SwissCall.net
-98. Revoxio
-99. HOMER
-100. bexio Pipedrive Data Transfer App
-101. Accrio · Accruals
-102. bexlook
+   https://marketplace.bexio.com/en-GB/apps/127035/easyplan
+
+43. wwcom smart call
+   https://marketplace.bexio.com/en-GB/apps/127629/wwcom-smart-call
+
+44. SwissDKM for SEO and GEO
+   https://marketplace.bexio.com/en-GB/apps/127696/swissdkm-for-seo-and-geo
+
+45. QR Module
+   https://marketplace.bexio.com/en-GB/apps/127915/qr-module
+
+46. TinkTime
+   https://marketplace.bexio.com/en-GB/apps/128497/tinktime
+
+47. Company modification
+   https://marketplace.bexio.com/en-GB/apps/128530/company-modification
+
+48. smiit Analytics
+   https://marketplace.bexio.com/en-GB/apps/128971/smiit-analytics
+
+49. Meisterwerk
+   https://marketplace.bexio.com/en-GB/apps/130195/meisterwerk
+
+50. Legal protection insurance
+   https://marketplace.bexio.com/en-GB/apps/130652/legal-protection-insurance
+
+51. Omnilex
+   https://marketplace.bexio.com/en-GB/apps/130804/omnilex
+
+52. blueAUDIT
+   https://marketplace.bexio.com/en-GB/apps/126083/blueaudit
+
+53. app.rombro.ch | import bookings and invoices from Excel or CSV
+   https://marketplace.bexio.com/en-GB/apps/126085/apprombroch-%7C-import-bookings-and-invoices-from-excel-or-csv
+
+54. Craftboxx
+   https://marketplace.bexio.com/en-GB/apps/126087/craftboxx
+
+55. Business Transaction – Business Succession
+   https://marketplace.bexio.com/en-GB/apps/126109/business-transaction-%E2%80%93-business-succession
+
+56. Arvato Financial Solutions
+   https://marketplace.bexio.com/en-GB/apps/126115/arvato-financial-solutions
+
+57. SPESEN.AI
+   https://marketplace.bexio.com/en-GB/apps/126120/spesenai
+
+58. Legally ok
+   https://marketplace.bexio.com/en-GB/apps/126148/legally-ok
+
+59. NetMailer Newsletter-Tool
+   https://marketplace.bexio.com/en-GB/apps/126149/netmailer-newsletter-tool
+
+60. Swiss Digital Shipping Solutions
+   https://marketplace.bexio.com/en-GB/apps/126159/swiss-digital-shipping-solutions
+
+61. Companion
+   https://marketplace.bexio.com/en-GB/apps/126163/companion
+
+62. awork
+   https://marketplace.bexio.com/en-GB/apps/126172/awork
+
+63. VisualNumbers
+   https://marketplace.bexio.com/en-GB/apps/126174/visualnumbers
+
+64. My-Onlineshop
+   https://marketplace.bexio.com/en-GB/apps/126187/my-onlineshop
+
+65. Expensly
+   https://marketplace.bexio.com/en-GB/apps/126189/expensly
+
+66. Local SEO
+   https://marketplace.bexio.com/en-GB/apps/126190/local-seo
+
+67. AESTICO
+   https://marketplace.bexio.com/en-GB/apps/126212/aestico
+
+68. aumico annual financial statements
+   https://marketplace.bexio.com/en-GB/apps/126220/aumico-annual-financial-statements
+
+69. mailXpert
+   https://marketplace.bexio.com/en-GB/apps/126229/mailxpert
+
+70. Triboni Drive for bexio
+   https://marketplace.bexio.com/en-GB/apps/126234/triboni-drive-for-bexio
+
+71. PrivacyBee
+   https://marketplace.bexio.com/en-GB/apps/126240/privacybee
+
+72. Worldline Tap on Mobile
+   https://marketplace.bexio.com/en-GB/apps/126283/worldline-tap-on-mobile
+
+73. Ecwid by BedayaConnect
+   https://marketplace.bexio.com/en-GB/apps/126371/ecwid-by-bedayaconnect
+
+74. moneyhouse – Commercial Register Service
+   https://marketplace.bexio.com/en-GB/apps/126601/moneyhouse-%E2%80%93-commercial-register-service
+
+75. eTermin
+   https://marketplace.bexio.com/en-GB/apps/126607/etermin
+
+76. SumUp by BedayaConnect
+   https://marketplace.bexio.com/en-GB/apps/126766/sumup-by-bedayaconnect
+
+77. Zytrack
+   https://marketplace.bexio.com/en-GB/apps/126833/zytrack
+
+78. Konsento
+   https://marketplace.bexio.com/en-GB/apps/126902/konsento
+
+79. Edelwise
+   https://marketplace.bexio.com/en-GB/apps/128533/edelwise
+
+80. Corebility
+   https://marketplace.bexio.com/en-GB/apps/130702/corebility
+
+81. bexlook
+   https://marketplace.bexio.com/en-GB/apps/125905/bexlook
+
+82. JobCloud - jobs.ch & jobup.ch
+   https://marketplace.bexio.com/en-GB/apps/128294/jobcloud---jobsch-jobupch
+
+83. biscau
+   https://marketplace.bexio.com/en-GB/apps/125839/biscau
+
+84. Zapier Connector
+   https://marketplace.bexio.com/en-GB/apps/125529/zapier-connector
+
+85. Accrio · CSV Importer
+   https://marketplace.bexio.com/en-GB/apps/126058/accrio-%C2%B7-csv-importer
+
+86. XfleX for Building Technology
+   https://marketplace.bexio.com/en-GB/apps/126061/xflex-for-building-technology
+
+87. Shopware interface for bexio
+   https://marketplace.bexio.com/en-GB/apps/126063/shopware-interface-for-bexio
+
+88. Alloy Ads
+   https://marketplace.bexio.com/en-GB/apps/131130/alloy-ads
+
+89. JUSTgreen
+   https://marketplace.bexio.com/en-GB/apps/133652/justgreen
+
+90. jobalino
+   https://marketplace.bexio.com/en-GB/apps/126055/jobalino
+
+91. XfleX for Painters
+   https://marketplace.bexio.com/en-GB/apps/126062/xflex-for-painters
+
+92. Arcavis
+   https://marketplace.bexio.com/en-GB/apps/128486/arcavis
+
+93. Aequitec
+   https://marketplace.bexio.com/en-GB/apps/132156/aequitec
+
+94. Accrio · Fixed Assets
+   https://marketplace.bexio.com/en-GB/apps/126056/accrio-%C2%B7-fixed-assets
+
+95. Microsoft Power BI
+   https://marketplace.bexio.com/en-GB/apps/126000/microsoft-power-bi
+
+96. TimeShepherd
+   https://marketplace.bexio.com/en-GB/apps/126002/timeshepherd
+
+97. Cyber Risk Monitoring
+   https://marketplace.bexio.com/en-GB/apps/128378/cyber-risk-monitoring
+
+98. SwissCall.net
+   https://marketplace.bexio.com/en-GB/apps/131049/swisscallnet
+
+99. Revoxio
+   https://marketplace.bexio.com/en-GB/apps/132388/revoxio
+
+100. HOMER
+   https://marketplace.bexio.com/en-GB/apps/134240/homer
+
+101. bexio Pipedrive Data Transfer App
+   https://marketplace.bexio.com/en-GB/apps/125842/bexio-pipedrive-data-transfer-app
+
+102. Accrio · Accruals
+   https://marketplace.bexio.com/en-GB/apps/126057/accrio-%C2%B7-accruals
+

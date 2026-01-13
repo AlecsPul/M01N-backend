@@ -8,13 +8,13 @@ import time
 
 def scrape_app_names(url):
     """
-    Extrae los nombres de apps usando Selenium y XPath
+    Extrae los nombres y links de apps usando Selenium y XPath
     
     Args:
         url: URL de la página a scrapear
         
     Returns:
-        Lista de nombres de apps encontradas
+        Lista de tuplas (nombre, link) de apps encontradas
     """
     driver = None
     try:
@@ -47,9 +47,9 @@ def scrape_app_names(url):
         # Esperar un poco más para asegurar que todo el JavaScript se ejecute
         time.sleep(2)
         
-        print("Página cargada. Extrayendo nombres de apps...\n")
+        print("Página cargada. Extrayendo nombres y links de apps...\n")
         
-        app_names = []
+        app_data = []
         
         # Buscar todos los enlaces con aria-label en los grid items
         # XPath para encontrar todos los enlaces con aria-label dentro de grid_item
@@ -61,14 +61,17 @@ def scrape_app_names(url):
         for i, link in enumerate(links, 1):
             try:
                 app_name = link.get_attribute('aria-label')
-                if app_name:
-                    app_names.append(app_name)
+                app_link = link.get_attribute('href')
+                
+                if app_name and app_link:
+                    app_data.append((app_name, app_link))
                     print(f"  {i}. {app_name}")
+                    print(f"     {app_link}")
             except Exception as e:
-                print(f"  Error al extraer nombre del enlace {i}: {e}")
+                print(f"  Error al extraer datos del enlace {i}: {e}")
                 continue
         
-        return app_names
+        return app_data
     
     except Exception as e:
         print(f"❌ Error: {e}")
@@ -85,7 +88,7 @@ def scrape_app_names(url):
 
 def main():
     # Configurar la URL base (sin filtro de categoría)
-    base_url = "https://marketplace.bexio.com/de-CH/listing?page={}&locale=de-CH"
+    base_url = "https://marketplace.bexio.com/en-GB/listing?page={}&locale=en-GB"
     
     all_apps = []
     page = 1
@@ -102,15 +105,15 @@ def main():
         print(f"{'='*60}")
         
         # Ejecutar el scraper para esta página
-        app_names = scrape_app_names(url)
+        app_data = scrape_app_names(url)
         
         # Si no se encontraron apps, terminamos
-        if not app_names:
+        if not app_data:
             print(f"\nNo se encontraron más apps en la página {page}. Finalizando...")
             break
         
         # Agregar las apps a la lista total
-        all_apps.extend(app_names)
+        all_apps.extend(app_data)
         print(f"\n✓ Apps acumuladas hasta ahora: {len(all_apps)}")
         
         page += 1
@@ -123,15 +126,17 @@ def main():
     print(f"Páginas scrapeadas: {page - 1}\n")
     
     print("Lista completa de apps:\n")
-    for i, name in enumerate(all_apps, 1):
+    for i, (name, link) in enumerate(all_apps, 1):
         print(f"{i}. {name}")
+        print(f"   {link}")
     
     # Guardar en archivo
     with open('apps_encontradas.txt', 'w', encoding='utf-8') as f:
         f.write(f"Total de apps: {len(all_apps)}\n")
         f.write(f"Páginas scrapeadas: {page - 1}\n\n")
-        for i, name in enumerate(all_apps, 1):
+        for i, (name, link) in enumerate(all_apps, 1):
             f.write(f"{i}. {name}\n")
+            f.write(f"   {link}\n\n")
     
     print(f"\n✓ Resultados guardados en 'apps_encontradas.txt'")
 
