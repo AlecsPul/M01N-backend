@@ -2,7 +2,7 @@
 OpenAI Client Configuration
 """
 from openai import AsyncOpenAI
-from app.config import settings
+from app.core.config import settings
 
 # Initialize OpenAI client
 client = AsyncOpenAI(api_key=settings.openai_api_key)

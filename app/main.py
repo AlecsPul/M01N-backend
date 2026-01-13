@@ -6,8 +6,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
 # Import configuration and database
-from app.config import settings
-from app.database import init_db, close_db
+from app.core.config import settings
+from app.core.database import init_db, close_db
 from app.api import routes
 from app.api import openai_routes
 
@@ -19,7 +19,7 @@ async def lifespan(app: FastAPI):
     """
     # Startup
     print("🚀 Starting up M01N API...")
-    await init_db()
+    #await init_db()
     print("✅ Database initialized")
     
     yield
