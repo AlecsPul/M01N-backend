@@ -26,3 +26,6 @@ async def get_application_links(
     application = result.scalars().all()
     return application
 
+from app.schemas.schemas import ItemCreate, ItemUpdate, ItemResponse, MessageResponse
+
+router = APIRouter(prefix="/api/v1", tags=["items"])

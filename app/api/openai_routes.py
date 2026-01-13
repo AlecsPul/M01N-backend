@@ -2,7 +2,7 @@
 OpenAI API Routes
 """
 from fastapi import APIRouter, HTTPException, status
-from app.openai_client import get_chat_completion, get_embedding, create_image
+from app.core.openai_client import get_chat_completion, get_embedding, create_image
 from app.schemas.openai_schemas import (
     ChatRequest,
     ChatResponse,
