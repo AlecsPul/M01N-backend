@@ -6,10 +6,11 @@ from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
 # Import configuration and database
-from app.config import settings
-from app.database import init_db, close_db
+from app.core.config import settings
+from app.core.database import init_db, close_db
 from app.api import routes
 from app.api import openai_routes
+from app.api import matching_routes
 
 
 @asynccontextmanager
@@ -50,6 +51,7 @@ app.add_middleware(
 # Include routers
 app.include_router(routes.router)
 app.include_router(openai_routes.router)
+app.include_router(matching_routes.router)
 
 
 # Root endpoint
