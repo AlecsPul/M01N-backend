@@ -251,7 +251,16 @@ async def initialize_schema(conn):
         PRIMARY KEY (app_search_id, integration_key)
     );
 
+    CREATE TABLE IF NOT EXISTS apps_tags (
+        id SERIAL PRIMARY KEY,
+        app_id UUID NOT NULL REFERENCES application(id) ON DELETE CASCADE,
+        tag TEXT NOT NULL,
+        created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+    );
+
     CREATE INDEX IF NOT EXISTS idx_application_url ON application(url);
+    CREATE INDEX IF NOT EXISTS idx_apps_tags_app_id ON apps_tags(app_id);
+    CREATE INDEX IF NOT EXISTS idx_apps_tags_tag ON apps_tags(tag);
     CREATE INDEX IF NOT EXISTS idx_application_search_app_id ON application_search(app_id);
     CREATE INDEX IF NOT EXISTS idx_application_labels_app_search_id ON application_labels(app_search_id);
     CREATE INDEX IF NOT EXISTS idx_application_labels_label ON application_labels(label);

@@ -7,7 +7,7 @@ from app.core.database import Base
 
 class Application(Base):
     """Application model for bexio marketplace apps"""
-    __tablename__ = "applications"
+    __tablename__ = "application"
 
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String, nullable=False, index=True)
@@ -27,7 +27,7 @@ class AppTag(Base):
     __tablename__ = "apps_tags"
 
     id = Column(Integer, primary_key=True, index=True)
-    app_id = Column(Integer, ForeignKey("applications.id", ondelete="CASCADE"), nullable=False, index=True)
+    app_id = Column(Integer, ForeignKey("application.id", ondelete="CASCADE"), nullable=False, index=True)
     tag = Column(String, nullable=False, index=True)
     created_at = Column(DateTime(timezone=True), server_default=func.now())
 
