@@ -8,13 +8,13 @@ import time
 
 def scrape_app_names(url):
     """
-    Extrae los nombres y links de apps usando Selenium y XPath
+    Extrae información completa de apps usando Selenium y XPath
     
     Args:
         url: URL de la página a scrapear
         
     Returns:
-        Lista de tuplas (nombre, link) de apps encontradas
+        Lista de diccionarios con información de apps encontradas
     """
     driver = None
     try:
@@ -47,28 +47,61 @@ def scrape_app_names(url):
         # Esperar un poco más para asegurar que todo el JavaScript se ejecute
         time.sleep(2)
         
-        print("Página cargada. Extrayendo nombres y links de apps...\n")
+        print("Página cargada. Extrayendo información de apps...\n")
         
         app_data = []
         
-        # Buscar todos los enlaces con aria-label en los grid items
-        # XPath para encontrar todos los enlaces con aria-label dentro de grid_item
-        xpath = "//div[contains(@class, 'grid_item')]//a[@aria-label]"
+        # Buscar todos los grid items
+        grid_items = driver.find_elements(By.XPATH, "//div[contains(@class, 'grid_item')]")
+        print(f"Encontrados {len(grid_items)} items\n")
         
-        links = driver.find_elements(By.XPATH, xpath)
-        print(f"Encontrados {len(links)} enlaces\n")
-        
-        for i, link in enumerate(links, 1):
+        for i, item in enumerate(grid_items, 1):
             try:
-                app_name = link.get_attribute('aria-label')
-                app_link = link.get_attribute('href')
+                # Extraer nombre y link
+                link_element = item.find_element(By.XPATH, ".//a[@aria-label]")
+                app_name = link_element.get_attribute('aria-label')
+                app_link = link_element.get_attribute('href')
+                
+                # Extraer imagen
+                try:
+                    img_element = item.find_element(By.XPATH, ".//img[contains(@class, 'productListingCard_icon')]")
+                    app_image = img_element.get_attribute('src')
+                except:
+                    app_image = "No disponible"
+                
+                # Extraer descripción
+                try:
+                    desc_element = item.find_element(By.XPATH, ".//div[contains(@class, 'productListingCard_overview')]")
+                    app_description = desc_element.text.strip()
+                except:
+                    app_description = "No disponible"
+                
+                # Extraer precio
+                try:
+                    price_element = item.find_element(By.XPATH, ".//div[@data-testid='pricing:srPrice']")
+                    app_price = price_element.text.strip()
+                except:
+                    app_price = "No disponible"
                 
                 if app_name and app_link:
-                    app_data.append((app_name, app_link))
+                    app_info = {
+                        'nombre': app_name,
+                        'link': app_link,
+                        'imagen': app_image,
+                        'descripcion': app_description,
+                        'precio': app_price
+                    }
+                    app_data.append(app_info)
+                    
                     print(f"  {i}. {app_name}")
-                    print(f"     {app_link}")
+                    print(f"     Link: {app_link}")
+                    print(f"     Imagen: {app_image[:60]}..." if len(app_image) > 60 else f"     Imagen: {app_image}")
+                    print(f"     Precio: {app_price}")
+                    print(f"     Descripción: {app_description[:60]}..." if len(app_description) > 60 else f"     Descripción: {app_description}")
+                    print()
+                    
             except Exception as e:
-                print(f"  Error al extraer datos del enlace {i}: {e}")
+                print(f"  Error al extraer datos del item {i}: {e}")
                 continue
         
         return app_data
@@ -125,20 +158,29 @@ def main():
     print(f"\nTotal de apps encontradas: {len(all_apps)}")
     print(f"Páginas scrapeadas: {page - 1}\n")
     
-    print("Lista completa de apps:\n")
-    for i, (name, link) in enumerate(all_apps, 1):
-        print(f"{i}. {name}")
-        print(f"   {link}")
-    
-    # Guardar en archivo
+    # Guardar en archivo de texto
     with open('apps_encontradas.txt', 'w', encoding='utf-8') as f:
         f.write(f"Total de apps: {len(all_apps)}\n")
         f.write(f"Páginas scrapeadas: {page - 1}\n\n")
-        for i, (name, link) in enumerate(all_apps, 1):
-            f.write(f"{i}. {name}\n")
-            f.write(f"   {link}\n\n")
+        f.write("="*80 + "\n\n")
+        
+        for i, app in enumerate(all_apps, 1):
+            f.write(f"{i}. {app['nombre']}\n")
+            f.write(f"   Link: {app['link']}\n")
+            f.write(f"   Imagen: {app['imagen']}\n")
+            f.write(f"   Precio: {app['precio']}\n")
+            f.write(f"   Descripción: {app['descripcion']}\n")
+            f.write("\n" + "-"*80 + "\n\n")
     
-    print(f"\n✓ Resultados guardados en 'apps_encontradas.txt'")
+    # Guardar en archivo CSV
+    import csv
+    with open('apps_encontradas.csv', 'w', encoding='utf-8', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=['nombre', 'link', 'imagen', 'precio', 'descripcion'])
+        writer.writeheader()
+        writer.writerows(all_apps)
+    
+    print(f"✓ Resultados guardados en 'apps_encontradas.txt'")
+    print(f"✓ Resultados guardados en 'apps_encontradas.csv'")
 
 
 if __name__ == "__main__":

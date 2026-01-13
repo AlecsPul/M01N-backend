@@ -1,309 +1,824 @@
 Total de apps: 102
 Páginas scrapeadas: 9
 
+================================================================================
+
 1. TRESIO
-   https://marketplace.bexio.com/en-GB/apps/126075/tresio
+   Link: https://marketplace.bexio.com/en-GB/apps/126075/tresio
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126075/thumbs_64/img7758924455312198086-2x.png
+   Precio: From CHF 40.00 / Month
+   Descripción: Liquidity planning, reporting, and multibanking: Manage your business data-driven, in real time, and based on your bexio figures. Manual updating of Excel spreadsheets is now a thing of the past.
+
+--------------------------------------------------------------------------------
 
 2. Worldline
-   https://marketplace.bexio.com/en-GB/apps/126105/worldline
+   Link: https://marketplace.bexio.com/en-GB/apps/126105/worldline
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126105/thumbs_64/img7093838917833368360-2x.png
+   Precio: Free
+   Descripción: TWINT, Visa, Mastercard and AMEX: Get paid faster with more payment options for your invoices — thanks to Worldline Schweiz AG. No setup or monthly fees!
+
+--------------------------------------------------------------------------------
 
 3. saldia Onlineshop for bexio
-   https://marketplace.bexio.com/en-GB/apps/126119/saldia-onlineshop-for-bexio
+   Link: https://marketplace.bexio.com/en-GB/apps/126119/saldia-onlineshop-for-bexio
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126119/thumbs_64/img6449784908047401877-2x.png
+   Precio: From CHF 119.00
+   Descripción: Create your own online shop in just a few minutes and effortlessly sell your products – with everything a successful Swiss webshop needs. Become the next Swiss success story and sell to anyone, anywhere. Stay organized with a central platform that is so easy to use that even your grandmother can understand it. Ideal for anyone looking to sell more!
+
+--------------------------------------------------------------------------------
 
 4. Triboni for bexio
-   https://marketplace.bexio.com/en-GB/apps/126191/triboni-for-bexio
+   Link: https://marketplace.bexio.com/en-GB/apps/126191/triboni-for-bexio
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126191/thumbs_64/img8098123752414205604-2x.png
+   Precio: From CHF 39.00 / Month
+   Descripción: Automated invoice processing with intelligent document recognition, advanced approval workflow and audit-compliant invoice archive (GebüV). Also for credit card billing with recognition, booking and allocation of individual receipts. All seamlessly integrated with bexio. Data storage in Swiss cloud.
+
+--------------------------------------------------------------------------------
 
 5. Kontera
-   https://marketplace.bexio.com/en-GB/apps/126265/kontera
+   Link: https://marketplace.bexio.com/en-GB/apps/126265/kontera
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126265/thumbs_64/img1408762888080209547-2x.png
+   Precio: From CHF 14.00 / Month
+   Descripción: Kontera automates the posting of your supplier invoices, expenses and much more. Automatic reconciliation with credit card statements, CAMT, Revolut and other transaction sources. New: WhatsApp Inbox!
+
+--------------------------------------------------------------------------------
 
 6. firm-it
-   https://marketplace.bexio.com/en-GB/apps/126442/firm-it
+   Link: https://marketplace.bexio.com/en-GB/apps/126442/firm-it
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126442/thumbs_64/img379994883734394494-2x.png
+   Precio: Free
+   Descripción: Formations and changes are made simple, digital, nationwide, affordable, and including notarization with firm-it – from automatic document generation to notarization and transmission to the commercial register office. The documents can be signed either manually or with an eSignature.
+
+--------------------------------------------------------------------------------
 
 7. KS Inkasso
-   https://marketplace.bexio.com/en-GB/apps/125899/ks-inkasso
+   Link: https://marketplace.bexio.com/en-GB/apps/125899/ks-inkasso
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/125899/thumbs_64/img9040479994301652466-2x.png
+   Precio: From CHF 79.90 / Year
+   Descripción: KS Inkasso is a customer-oriented, innovative debt collection agency that operates purely on a success basis for you. Case transfer is easy with just two clicks from your bexio account. Minimal effort, maximum return.
+
+--------------------------------------------------------------------------------
 
 8. Clockodo
-   https://marketplace.bexio.com/en-GB/apps/126037/clockodo
+   Link: https://marketplace.bexio.com/en-GB/apps/126037/clockodo
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126037/thumbs_64/img6986579090363214033-2x.png
+   Precio: From CHF 4.00 / Month
+   Descripción: Clockodo allows you to record working times and project times - even when you're on the move via the mobile app. Quick and easy, with cost control, analyses and exports - and integrated billing via bexio.
+
+--------------------------------------------------------------------------------
 
 9. sproutAnalytics
-   https://marketplace.bexio.com/en-GB/apps/126155/sproutanalytics
+   Link: https://marketplace.bexio.com/en-GB/apps/126155/sproutanalytics
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126155/thumbs_64/img5929846663511572129-2x.png
+   Precio: From CHF 49.00 / Month
+   Descripción: sproutAnalytics is the all-in-one solution for the visualization, analysis and forecasting (budget, cash flow, liquidity) of bexio data.
+
+--------------------------------------------------------------------------------
 
 10. SumUp & PepperShop POS solution
-   https://marketplace.bexio.com/en-GB/apps/126263/sumup-peppershop-pos-solution
+   Link: https://marketplace.bexio.com/en-GB/apps/126263/sumup-peppershop-pos-solution
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126263/thumbs_64/img6029037733178129673-2x.png
+   Precio: From CHF 39.00 / Month
+   Descripción: SumUp card terminal and PepperShop POS system in one package: the intuitive and flexible all-in-one POS solution. Quickly installed and ready to use immediately. With special conditions for bexio customers. Selling made easy!
+
+--------------------------------------------------------------------------------
 
 11. wechselstube.ch
-   https://marketplace.bexio.com/en-GB/apps/126300/wechselstubech
+   Link: https://marketplace.bexio.com/en-GB/apps/126300/wechselstubech
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126300/thumbs_64/img7255097322273469193-2x.png
+   Precio: Free
+   Descripción: Benefit from the best exchange rates in Switzerland. Fixable. Simple. Secure. All major currencies. Ideal for paying invoices in foreign currency – and for hedging against currency fluctuations.
+
+--------------------------------------------------------------------------------
 
 12. Shopify Connector by Helvy
-   https://marketplace.bexio.com/en-GB/apps/126310/shopify-connector-by-helvy
+   Link: https://marketplace.bexio.com/en-GB/apps/126310/shopify-connector-by-helvy
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126310/thumbs_64/img5357553543556424975-2x.png
+   Precio: From CHF 17.90 / Month
+   Descripción: Our app automates the synchronization of your Shopify orders, customers, and products to bexio, offering numerous customization options.
+
+--------------------------------------------------------------------------------
 
 13. PepperShop POS
-   https://marketplace.bexio.com/en-GB/apps/126170/peppershop-pos
+   Link: https://marketplace.bexio.com/en-GB/apps/126170/peppershop-pos
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126170/thumbs_64/img7950468886612843370-2x.png
+   Precio: From CHF 39.00 / Month
+   Descripción: With the web-based PepperShop POS solution, you can serve your customers from any location on a laptop, tablet or mobile phone. Sales are transmitted to bexio in real time and you can synchronise items, stock levels and customer data with just one click.
+
+--------------------------------------------------------------------------------
 
 14. RESTORE-IT Backup
-   https://marketplace.bexio.com/en-GB/apps/126221/restore-it-backup
+   Link: https://marketplace.bexio.com/en-GB/apps/126221/restore-it-backup
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126221/thumbs_64/img7465934709132523195-2x.png
+   Precio: From CHF 9.00 / Month
+   Descripción: With RESTORE-IT Backup for bexio you benefit from an automated backup solution for your bexio data, documents and contacts. Via the web app you have also the option of starting backups manually and export deleted or mistakenly changed data, documents and contacts via an export function. Simple, secure and efficient.
+
+--------------------------------------------------------------------------------
 
 15. 2getHR
-   https://marketplace.bexio.com/en-GB/apps/126334/2gethr
+   Link: https://marketplace.bexio.com/en-GB/apps/126334/2gethr
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126334/thumbs_64/img14301666865418111234-2x.png
+   Precio: From CHF 3.90
+   Descripción: 2getHR is the comprehensive all-in-one HR software solution that digitises and automates your HR department. From expense management to absence and holiday management to the digital dispatch of payslips - 2getHR combines all important functions in one tool. This makes HR processes more efficient, faster and more sustainable, while freeing up valuable time for strategic tasks.
+
+--------------------------------------------------------------------------------
 
 16. TimeStatement
-   https://marketplace.bexio.com/en-GB/apps/126438/timestatement
+   Link: https://marketplace.bexio.com/en-GB/apps/126438/timestatement
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126438/thumbs_64/img4179775931028904424-2x.png
+   Precio: Free
+   Descripción: Simple and intuitive project time tracking, work time tracking, absence management, and invoicing. TimeStatement was specially designed to meet the needs of Swiss SMEs.
+
+--------------------------------------------------------------------------------
 
 17. PepperShop Online Shop
-   https://marketplace.bexio.com/en-GB/apps/126911/peppershop-online-shop
+   Link: https://marketplace.bexio.com/en-GB/apps/126911/peppershop-online-shop
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126911/thumbs_64/img4939351862427974635-2x.png
+   Precio: From CHF 79.00 / Month
+   Descripción: With the Swiss software PepperShop, you can easily create your personalized online shop. Orders are transmitted to bexio in real-time and automatically recorded. Sync articles, stock levels, and customer data conveniently with a single click. Connect your bexio account to PepperShop in just a few steps and test all features for free. Click «Add App» now and see for yourself!
+
+--------------------------------------------------------------------------------
 
 18. bexio Pay
-   https://marketplace.bexio.com/en-GB/apps/127056/bexio-pay
+   Link: https://marketplace.bexio.com/en-GB/apps/127056/bexio-pay
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/127056/thumbs_64/img5256493458731370279-2x.png
+   Precio: From CHF 14.00 / Month
+   Descripción: Minimal effort and maximum time savings – thanks to automated expense processing directly in your bexio account!
+
+--------------------------------------------------------------------------------
 
 19. Marketing Strategy Generator | QOYO.io
-   https://marketplace.bexio.com/en-GB/apps/129789/marketing-strategy-generator-%7C-qoyoio
+   Link: https://marketplace.bexio.com/en-GB/apps/129789/marketing-strategy-generator-%7C-qoyoio
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/129789/thumbs_64/img9028117874351138252-2x.png
+   Precio: Free
+   Descripción: Get your free, data-driven online marketing strategy in just 10 minutes: With the QOYO tool, you’ll receive a strategy tailored to your business. See which marketing channels make sense for you—and which don’t—with clear explanations. Learn which strategic steps matter most, get a practical checklist, and understand how to allocate your budget and time effectively. You can adjust your strategy or create new versions anytime. Exclusive for bexio users: You’ll also get 45 minutes of free consulting with a marketing expert who reviews your strategy, takes it a step further, and suggests actionable next steps or suitable partners.
+
+--------------------------------------------------------------------------------
 
 20. bexio Go
-   https://marketplace.bexio.com/en-GB/apps/125264/bexio-go
+   Link: https://marketplace.bexio.com/en-GB/apps/125264/bexio-go
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/125264/thumbs_64/image4577205870985595003-2x.png
+   Precio: Free
+   Descripción: bexio on the go: use the bexio Go mobile app to quickly and easily scan and automatically post QR invoices and receipts. What's more, bexio Go allows you to record times, view invoices and manage contacts on the go. Download it for free for iOS and Android now!
+
+--------------------------------------------------------------------------------
 
 21. Fakturino
-   https://marketplace.bexio.com/en-GB/apps/133879/fakturino
+   Link: https://marketplace.bexio.com/en-GB/apps/133879/fakturino
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/133879/thumbs_64/img14430787699480619494-2x.png
+   Precio: From CHF 39.00 / Month
+   Descripción: Fakturino is the smart extension for bexio when you need to issue invoices on a regular basis — for example for subscriptions, services or licences. You set up the recurring job in bexio, and Fakturino takes care of the rest: creating and sending invoices — automatically and reliably.
+
+--------------------------------------------------------------------------------
 
 22. brolio
-   https://marketplace.bexio.com/en-GB/apps/126088/brolio
+   Link: https://marketplace.bexio.com/en-GB/apps/126088/brolio
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126088/thumbs_64/img5961491489461643838-2x.png
+   Precio: CHF 2.00 / Month
+   Descripción: Brolio is a simple and integrable contact manager (CRM) and enables SMEs to coordinate their customer and sales activities company-wide and to sustainably improve customer service.
+
+--------------------------------------------------------------------------------
 
 23. Candia.io
-   https://marketplace.bexio.com/en-GB/apps/126102/candiaio
+   Link: https://marketplace.bexio.com/en-GB/apps/126102/candiaio
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126102/thumbs_64/img2519822573911180840-2x.png
+   Precio: From CHF 10.25 / Month
+   Descripción: Candia.io is the ideal complement to bexio for facility management, cleaning, gardening, service and building technology, and anyone with outdoor staff.
+Candia.io and bexio are integrated from order to invoicing. Together, Candia.io and bexio provide you with a comprehensive industry solution: planning, scheduling, reporting, time tracking, and much more.
+
+--------------------------------------------------------------------------------
 
 24. Business Transaction – Company Valuation for SMEs
-   https://marketplace.bexio.com/en-GB/apps/126110/business-transaction-%E2%80%93-company-valuation-for-smes
+   Link: https://marketplace.bexio.com/en-GB/apps/126110/business-transaction-%E2%80%93-company-valuation-for-smes
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126110/thumbs_64/img18299652506017266298-2x.png
+   Precio: Free
+   Descripción: Would you like to know the price your business could sell for today? The market price assessment from the leading M&A boutique provides you with a market-based sale price, including an evaluation of its saleability.
+
+--------------------------------------------------------------------------------
 
 25. BETREIBUNGSSCHALTER-PLUS
-   https://marketplace.bexio.com/en-GB/apps/126150/betreibungsschalter-plus
+   Link: https://marketplace.bexio.com/en-GB/apps/126150/betreibungsschalter-plus
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126150/thumbs_64/img5568687052332560447-2x.png
+   Precio: From CHF 15.00
+   Descripción: Start debt collection directly from bexio. Handle the entire debt collection process electronically (eSchKG). You also have access to debt collection extracts, credit checks, address checks and more. Note: The first debt collection is free of charge.
+
+--------------------------------------------------------------------------------
 
 26. Squadra
-   https://marketplace.bexio.com/en-GB/apps/126161/squadra
+   Link: https://marketplace.bexio.com/en-GB/apps/126161/squadra
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126161/thumbs_64/img1960601729978614758-2x.png
+   Precio: From CHF 7.95 / Month
+   Descripción: Squadra is the smart software solution for shift planning and time tracking, specifically designed for demanding industries such as gastronomy, events, healthcare, staffing, retail, and manufacturing.
+
+--------------------------------------------------------------------------------
 
 27. swiDOC
-   https://marketplace.bexio.com/en-GB/apps/126171/swidoc
+   Link: https://marketplace.bexio.com/en-GB/apps/126171/swidoc
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126171/thumbs_64/img1821053516089871939-2x.png
+   Precio: From CHF 18.90 / Month
+   Descripción: Every company needs to archive documents. With swiDOC, you can focus on your core business again. Manage all your documents digitally and in compliance with legal requirements using swiDOC.
+
+--------------------------------------------------------------------------------
 
 28. Work2Report
-   https://marketplace.bexio.com/en-GB/apps/126173/work2report
+   Link: https://marketplace.bexio.com/en-GB/apps/126173/work2report
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126173/thumbs_64/img494702625428139290-2x.png
+   Precio: From CHF 5.00 / Month
+   Descripción: Work2Report upgrades bexio with comprehensive time sheet reports. Individuell anpassbar, mit Stundensaldos und PDF- und Excel-Export zur Ablage.
+
+--------------------------------------------------------------------------------
 
 29. Factoring & Debt Collection
-   https://marketplace.bexio.com/en-GB/apps/126219/factoring-debt-collection
+   Link: https://marketplace.bexio.com/en-GB/apps/126219/factoring-debt-collection
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126219/thumbs_64/img6804912979386663872-2x.png
+   Precio: From CHF 49.00 / Month
+   Descripción: Shorten payment terms, secure liquidity, minimize risks and administration – for greater efficiency and financial security.
+
+--------------------------------------------------------------------------------
 
 30. Swiss Newsletter
-   https://marketplace.bexio.com/en-GB/apps/126232/swiss-newsletter
+   Link: https://marketplace.bexio.com/en-GB/apps/126232/swiss-newsletter
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126232/thumbs_64/img1879850880826887253-2x.png
+   Precio: Free
+   Descripción: Send professional newsletters directly to your contacts from bexio. You benefit from the delivery reliability of the Swiss market leader in e-mail marketing. Best of all: up to 200 e-mails per month are free!
+
+--------------------------------------------------------------------------------
 
 31. Calenso
-   https://marketplace.bexio.com/en-GB/apps/126268/calenso
+   Link: https://marketplace.bexio.com/en-GB/apps/126268/calenso
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126268/thumbs_64/img5829114522420529822-2x.png
+   Precio: From CHF 22.40 / Month
+   Descripción: In today’s digital world, it is crucial for companies to streamline their processes to be successful. Especially when it comes to appointment scheduling, every minute counts. Who wants to waste time painstakingly coordinating appointments? But we have the solution! – Online appointment scheduling with bexio integration. A Swiss software solution tailored for businesses that value data protection.
+
+--------------------------------------------------------------------------------
 
 32. Delivery + Planzer Labels by BedayaConnect
-   https://marketplace.bexio.com/en-GB/apps/126290/delivery-+-planzer-labels-by-bedayaconnect
+   Link: https://marketplace.bexio.com/en-GB/apps/126290/delivery-+-planzer-labels-by-bedayaconnect
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126290/thumbs_64/img7398525605111565081-2x.png
+   Precio: From CHF 24.90 / Month
+   Descripción: Work made easy through digitization. Your goods are ready for dispatch in two clicks.
+
+--------------------------------------------------------------------------------
 
 33. Delivery + DPD Labels by BedayaConnect
-   https://marketplace.bexio.com/en-GB/apps/126292/delivery-+-dpd-labels-by-bedayaconnect
+   Link: https://marketplace.bexio.com/en-GB/apps/126292/delivery-+-dpd-labels-by-bedayaconnect
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126292/thumbs_64/image8905808238128235898-2x.png
+   Precio: From CHF 24.90 / Month
+   Descripción: Work made easy through digitization. Your goods are ready for dispatch in two clicks.
+
+--------------------------------------------------------------------------------
 
 34. SMAILD
-   https://marketplace.bexio.com/en-GB/apps/126326/smaild
+   Link: https://marketplace.bexio.com/en-GB/apps/126326/smaild
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126326/thumbs_64/img4739018933914465988-2x.png
+   Precio: From CHF 20.00 / Month
+   Descripción: Dispatch documents by physical mail directly from bexio or from your mailbox. Improve the dunning process by sending payment reminders automatically by post. SMAILD is a scalable cloud application that uses the new Pingen service for printing and dispatching documents by physical post – Save time on paperwork.
+
+--------------------------------------------------------------------------------
 
 35. DocuWare for bexio
-   https://marketplace.bexio.com/en-GB/apps/126362/docuware-for-bexio
+   Link: https://marketplace.bexio.com/en-GB/apps/126362/docuware-for-bexio
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126362/thumbs_64/img1362303224968621081-2x.png
+   Precio: From CHF 49.00
+   Descripción: Automate your accounts payable process with a document management system and leave the legally compliant archiving to it.
+
+--------------------------------------------------------------------------------
 
 36. tik-tak
-   https://marketplace.bexio.com/en-GB/apps/126368/tik-tak
+   Link: https://marketplace.bexio.com/en-GB/apps/126368/tik-tak
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126368/thumbs_64/img3807014519200253869-2x.png
+   Precio: From CHF 7.00 / Month
+   Descripción: tik-tak, the Time-Tracking App (Work-, Project time, Absences as well as Vacation-Mgmt). Easy and time-saving for Employees as well as for Managers incl. analysis and in-sync with bexio. Developed in coordination with bexio.
+
+--------------------------------------------------------------------------------
 
 37. WooCommerce Connector by Helvy
-   https://marketplace.bexio.com/en-GB/apps/126377/woocommerce-connector-by-helvy
+   Link: https://marketplace.bexio.com/en-GB/apps/126377/woocommerce-connector-by-helvy
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126377/thumbs_64/img3847931918957523106-2x.png
+   Precio: From CHF 19.90 / Month
+   Descripción: Save time by syncing your WooCommerce store with bexio! Our app automates the synchronization of your WooCommerce orders and customers to bexio, with numerous customization options.
+
+--------------------------------------------------------------------------------
 
 38. eBill by iomarket AG
-   https://marketplace.bexio.com/en-GB/apps/126626/ebill-by-iomarket-ag
+   Link: https://marketplace.bexio.com/en-GB/apps/126626/ebill-by-iomarket-ag
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126626/thumbs_64/img1483856275452271075-2x.png
+   Precio: From CHF 6.00 / Month
+   Descripción: Thanks to the automated solution from iomarket AG, invoices can be sent as eBill directly from the existing bexio account to customers!
+
+--------------------------------------------------------------------------------
 
 39. Social EDI - gate2b
-   https://marketplace.bexio.com/en-GB/apps/126704/social-edi---gate2b
+   Link: https://marketplace.bexio.com/en-GB/apps/126704/social-edi---gate2b
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126704/thumbs_64/img5612345963126484451-2x.png
+   Precio: From CHF 6.00 / Month
+   Descripción: The EDI application «gate2b» allows bexio customers to electronically exchange their data with leading market companies. The setup process is now simple, fast, and self-service, significantly improving business partner relationships.
+
+--------------------------------------------------------------------------------
 
 40. Hubspot Connector
-   https://marketplace.bexio.com/en-GB/apps/126761/hubspot-connector
+   Link: https://marketplace.bexio.com/en-GB/apps/126761/hubspot-connector
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126761/thumbs_64/img445235757292316708-2x.png
+   Precio: Free
+   Descripción: Synchronize data between bexio and HubSpot without manual data entry or tedious, time-consuming imports.
+
+--------------------------------------------------------------------------------
 
 41. Qlerqs - AccountingRobot
-   https://marketplace.bexio.com/en-GB/apps/126957/qlerqs---accountingrobot
+   Link: https://marketplace.bexio.com/en-GB/apps/126957/qlerqs---accountingrobot
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126957/thumbs_64/img4788376881580806007-2x.png
+   Precio: From CHF 12.00 / Month
+   Descripción: Would you like to book your invoices easily and release them for payment? The AccountingRobot automatically reads, records and assigns the account to your invoice in bexio, so you only have to check and approve it.
+
+--------------------------------------------------------------------------------
 
 42. Easyplan
-   https://marketplace.bexio.com/en-GB/apps/127035/easyplan
+   Link: https://marketplace.bexio.com/en-GB/apps/127035/easyplan
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/127035/thumbs_64/img4695596580773927960-2x.png
+   Precio: From CHF 240.00 / Six Months
+   Descripción: Easyplan enables the creation of L-GAV contracts through digitalization and saves managers valuable time. The solution is specially designed for companies with high staff turnover and seasonal employment.
+
+--------------------------------------------------------------------------------
 
 43. wwcom smart call
-   https://marketplace.bexio.com/en-GB/apps/127629/wwcom-smart-call
+   Link: https://marketplace.bexio.com/en-GB/apps/127629/wwcom-smart-call
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/127629/thumbs_64/img3133369529477593801-2x.png
+   Precio: From CHF 30.00 / Month
+   Descripción: wwcom smart call is the perfect communication solution for your company: flexible and easily-adaptable to your needs and optimized for the Swiss SME market – hosted in Switzerland and perfectly synchronized with bexio.
+
+--------------------------------------------------------------------------------
 
 44. SwissDKM for SEO and GEO
-   https://marketplace.bexio.com/en-GB/apps/127696/swissdkm-for-seo-and-geo
+   Link: https://marketplace.bexio.com/en-GB/apps/127696/swissdkm-for-seo-and-geo
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/127696/thumbs_64/img1767303167173694961-2x.png
+   Precio: From CHF 2.97 / Day
+   Descripción: Increase your visibility by connecting with OpenAI, Google Gemini, Meta AI, over 40 digital services, and various keywords.
+
+With our direct integrations, you can manage all data about your brand, products, or services in one central location so that customers always find accurate information about your business, no matter where they search.
+
+--------------------------------------------------------------------------------
 
 45. QR Module
-   https://marketplace.bexio.com/en-GB/apps/127915/qr-module
+   Link: https://marketplace.bexio.com/en-GB/apps/127915/qr-module
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/127915/thumbs_64/img16694607737785508145-2x.png
+   Precio: From CHF 12.00 / Month
+   Descripción: QR Module – The professional solution for QR-bills & serial dispatch. 20 % discount on all subscriptions for bexio customers.
+
+--------------------------------------------------------------------------------
 
 46. TinkTime
-   https://marketplace.bexio.com/en-GB/apps/128497/tinktime
+   Link: https://marketplace.bexio.com/en-GB/apps/128497/tinktime
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/128497/thumbs_64/img8870139940123405067-2x.png
+   Precio: From CHF 10.00 / Month
+   Descripción: From patient scheduling to billing in bexio, the Tariff 590 practice management solution gives you everything you need to focus on the essential part of your job.
+
+--------------------------------------------------------------------------------
 
 47. Company modification
-   https://marketplace.bexio.com/en-GB/apps/128530/company-modification
+   Link: https://marketplace.bexio.com/en-GB/apps/128530/company-modification
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/128530/thumbs_64/img126264019481609787-2x.png
+   Precio: From CHF 190.00
+   Descripción: NewCo offers a fast, reliable service for changing your commercial register entry. Simplify your procedures and save time with our solution.
+
+--------------------------------------------------------------------------------
 
 48. smiit Analytics
-   https://marketplace.bexio.com/en-GB/apps/128971/smiit-analytics
+   Link: https://marketplace.bexio.com/en-GB/apps/128971/smiit-analytics
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/128971/thumbs_64/img3884847255984737790-2x.png
+   Precio: Free
+   Descripción: smiit Analytics helps you to use your bexio data in a structured way with Microsoft Power BI and to evaluate it with over 250 analyses. Optimise your profitability with data-based decision-making and smart data analysis. Pave the way for AI and automation - all in one powerful dashboard.
+
+--------------------------------------------------------------------------------
 
 49. Meisterwerk
-   https://marketplace.bexio.com/en-GB/apps/130195/meisterwerk
+   Link: https://marketplace.bexio.com/en-GB/apps/130195/meisterwerk
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/130195/thumbs_64/img2703106062583157218-2x.png
+   Precio: From CHF 67.00 / Month
+   Descripción: A craftsmen’s software for everything: jobs, finances, team. With Meisterwerk, you see exactly what’s going on, where you can improve, and which decisions truly move your business forward. Just one tool – for more of what matters.
+
+--------------------------------------------------------------------------------
 
 50. Legal protection insurance
-   https://marketplace.bexio.com/en-GB/apps/130652/legal-protection-insurance
+   Link: https://marketplace.bexio.com/en-GB/apps/130652/legal-protection-insurance
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/130652/thumbs_64/image9671241408835118749-2x.png
+   Precio: From CHF 19.00 / Month
+   Descripción: We stand up for your rights and cover your legal costs – exclusively for bexio customers with a Pro or Pro+ package.
+
+--------------------------------------------------------------------------------
 
 51. Omnilex
-   https://marketplace.bexio.com/en-GB/apps/130804/omnilex
+   Link: https://marketplace.bexio.com/en-GB/apps/130804/omnilex
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/130804/thumbs_64/img10689885676336211781-2x.png
+   Precio: From CHF 99.00 / Month
+   Descripción: Für Treuhänder sind Rechtsabklärungen oft teuer und zeitintensiv – sei es durch kostspielige Anwälte oder aufwändige Eigenrecherche. Omnilex ändert das: Als Nr.1 KI-Tool für Schweizer Treuhänder liefert Omnilex fundierte Antworten auf rechtliche Fragen – sofort, zuverlässig und ohne Warteschleife. Ob Steuerrecht, Vertragsrecht, Gesellschaftsrecht oder andere Themen: Die Antworten entsprechen nachweislich dem Niveau von Fachexperten und stützen sich auf Schweizer Rechtsquellen. Sie sparen Stunden an Recherche, senken externe Kosten und gewinnen Sicherheit im Alltag. Deshalb setzen bereits zahlreiche Treuhandbüros und Kanzleien auf Omnilex.
+
+--------------------------------------------------------------------------------
 
 52. blueAUDIT
-   https://marketplace.bexio.com/en-GB/apps/126083/blueaudit
+   Link: https://marketplace.bexio.com/en-GB/apps/126083/blueaudit
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126083/thumbs_64/img334919970412663096-2x.png
+   Precio: Free
+   Descripción: The auditor of the future! - Efficient & transparent thanks Automation - Limited Audits, Capital Contribution, Ordinary Audits - Switzerland
+
+--------------------------------------------------------------------------------
 
 53. app.rombro.ch | import bookings and invoices from Excel or CSV
-   https://marketplace.bexio.com/en-GB/apps/126085/apprombroch-%7C-import-bookings-and-invoices-from-excel-or-csv
+   Link: https://marketplace.bexio.com/en-GB/apps/126085/apprombroch-%7C-import-bookings-and-invoices-from-excel-or-csv
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126085/thumbs_64/img2261301499155010240-2x.png
+   Precio: From CHF 19.00 / Month
+   Descripción: Import bookings from Microsoft Excel, CSV, or Google Sheets as manual entries into bexio. Import invoices as a list and create numerous sales invoices in bexio from them. Unlock the bexio expert mode now and ignite your accounting rocket!
+
+--------------------------------------------------------------------------------
 
 54. Craftboxx
-   https://marketplace.bexio.com/en-GB/apps/126087/craftboxx
+   Link: https://marketplace.bexio.com/en-GB/apps/126087/craftboxx
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126087/thumbs_64/img149287079150667110-2x.png
+   Precio: From CHF 10.99 / Month
+   Descripción: The Craftboxx is a software for craftsmen designed for clear deployment planning in the office and easy documentation and time tracking on the construction site.
+
+--------------------------------------------------------------------------------
 
 55. Business Transaction – Business Succession
-   https://marketplace.bexio.com/en-GB/apps/126109/business-transaction-%E2%80%93-business-succession
+   Link: https://marketplace.bexio.com/en-GB/apps/126109/business-transaction-%E2%80%93-business-succession
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126109/thumbs_64/img5136372483696021566-2x.png
+   Precio: Free
+   Descripción: Are you looking for a professional partner to support you in selling your business or arranging succession? Our experience from over 280 successful SME transactions and our unwavering commitment guarantee you transaction security.
+
+--------------------------------------------------------------------------------
 
 56. Arvato Financial Solutions
-   https://marketplace.bexio.com/en-GB/apps/126115/arvato-financial-solutions
+   Link: https://marketplace.bexio.com/en-GB/apps/126115/arvato-financial-solutions
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126115/thumbs_64/img3879906847758560936-2x.png
+   Precio: CHF 69.90 / Year
+   Descripción: Collecting unpaid invoices involves a lot of effort. With debt collection, you can hand this task over to a specialist, thereby increasing the chances of receiving your money in a timely manner.
+
+--------------------------------------------------------------------------------
 
 57. SPESEN.AI
-   https://marketplace.bexio.com/en-GB/apps/126120/spesenai
+   Link: https://marketplace.bexio.com/en-GB/apps/126120/spesenai
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126120/thumbs_64/img4948766156119404614-2x.png
+   Precio: From Free
+   Descripción: Seamlessly manage expenses, submit company taxes, and access financial data effortlessly.
+
+--------------------------------------------------------------------------------
 
 58. Legally ok
-   https://marketplace.bexio.com/en-GB/apps/126148/legally-ok
+   Link: https://marketplace.bexio.com/en-GB/apps/126148/legally-ok
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126148/thumbs_64/img2260943889932788185-2x.png
+   Precio: From CHF 0.00 / Month
+   Descripción: With Legally ok, you can make your website compliant and legally secure in just a few minutes. The all-in-one data protection solution automatically generates a customized and legally compliant privacy policy, imprint, and cookie banner for your website. The legal texts used are drafted by experienced Swiss legal experts in the field of data protection and are regularly updated.
+
+--------------------------------------------------------------------------------
 
 59. NetMailer Newsletter-Tool
-   https://marketplace.bexio.com/en-GB/apps/126149/netmailer-newsletter-tool
+   Link: https://marketplace.bexio.com/en-GB/apps/126149/netmailer-newsletter-tool
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126149/thumbs_64/img6278809431064140983-2x.png
+   Precio: From CHF 29.79 / Month
+   Descripción: With NetMailer, sending newsletters is a breeze. Transfer all contacts from bexio to NetMailer with a single click – organized by the categories of your bexio contacts.
+
+--------------------------------------------------------------------------------
 
 60. Swiss Digital Shipping Solutions
-   https://marketplace.bexio.com/en-GB/apps/126159/swiss-digital-shipping-solutions
+   Link: https://marketplace.bexio.com/en-GB/apps/126159/swiss-digital-shipping-solutions
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126159/thumbs_64/img950402754757543493-2x.png
+   Precio: CHF 9.90 / Month
+   Descripción: Swiss Digital Shipping Solutions simplifies the creation of shipping labels for Swiss Post for SMEs. Shipping labels and return labels can be generated from orders and invoices and automatically added to the PDF of the receipt or your own template. As a bexio customer, you receive 5 barcodes per month for free. There are several packages available that cater to your needs and provide additional benefits.
+
+--------------------------------------------------------------------------------
 
 61. Companion
-   https://marketplace.bexio.com/en-GB/apps/126163/companion
+   Link: https://marketplace.bexio.com/en-GB/apps/126163/companion
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126163/thumbs_64/img5920507632705436344-2x.png
+   Precio: From CHF 29.00 / Month
+   Descripción: Companion is a GDPR-compliant alternative to ChatGPT for Swiss SMEs that provides company-specific answers and can be used to automate processes step by step.
+
+--------------------------------------------------------------------------------
 
 62. awork
-   https://marketplace.bexio.com/en-GB/apps/126172/awork
+   Link: https://marketplace.bexio.com/en-GB/apps/126172/awork
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126172/thumbs_64/img1754077732390070805-2x.png
+   Precio: From CHF 8.00 / Month
+   Descripción: awork is a work management tool that offers functions such as project management, team planning and time tracking for more efficient work organisation.
+
+--------------------------------------------------------------------------------
 
 63. VisualNumbers
-   https://marketplace.bexio.com/en-GB/apps/126174/visualnumbers
+   Link: https://marketplace.bexio.com/en-GB/apps/126174/visualnumbers
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126174/thumbs_64/img268294483970194081-2x.png
+   Precio: CHF 7.00 / Month
+   Descripción: No more Excel budgets. VisualNumbers is a user-friendly budgeting tool for SMEs. Save time on budgeting, analysis, and scenario planning.
+
+--------------------------------------------------------------------------------
 
 64. My-Onlineshop
-   https://marketplace.bexio.com/en-GB/apps/126187/my-onlineshop
+   Link: https://marketplace.bexio.com/en-GB/apps/126187/my-onlineshop
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126187/thumbs_64/img7845432359118671969-2x.png
+   Precio: From CHF 69.00 / Month
+   Descripción: “My-Onlineshop" with bexio is a Swiss e-commerce solution with automatic synchronization of items, inventory, orders, and customer data. Scalable, customizable, and ready for SEO and online marketing.
+
+--------------------------------------------------------------------------------
 
 65. Expensly
-   https://marketplace.bexio.com/en-GB/apps/126189/expensly
+   Link: https://marketplace.bexio.com/en-GB/apps/126189/expensly
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126189/thumbs_64/img5815354895288060818-2x.png
+   Precio: From CHF 12.00 / Month
+   Descripción: Automate your expense tracking with Expensly. Scan and book receipts directly with your smartphone—no manual post-processing needed. Ideal for SMEs looking to save time and minimize errors. Try Expensly for free.
+
+--------------------------------------------------------------------------------
 
 66. Local SEO
-   https://marketplace.bexio.com/en-GB/apps/126190/local-seo
+   Link: https://marketplace.bexio.com/en-GB/apps/126190/local-seo
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126190/thumbs_64/img7946405400015712192-2x.png
+   Precio: From CHF 149.00
+   Descripción: By tomorrow, your most important keywords will already be visible on Google. Thanks to the unique Local-PerformancePlus system, you’ll be prominently displayed on Google in no time, staying one step ahead of your competitors.
+
+--------------------------------------------------------------------------------
 
 67. AESTICO
-   https://marketplace.bexio.com/en-GB/apps/126212/aestico
+   Link: https://marketplace.bexio.com/en-GB/apps/126212/aestico
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126212/thumbs_64/img6219925598175734499-2x.png
+   Precio: From CHF 79.00 / Month
+   Descripción: AESTICO mobile app: use the app to record quotes digitally on-site. You then transfer the quote from the AESTICO app directly to bexio.
+
+--------------------------------------------------------------------------------
 
 68. aumico annual financial statements
-   https://marketplace.bexio.com/en-GB/apps/126220/aumico-annual-financial-statements
+   Link: https://marketplace.bexio.com/en-GB/apps/126220/aumico-annual-financial-statements
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126220/thumbs_64/img4100834178781496109-2x.png
+   Precio: From CHF 1,600.00 / Year
+   Descripción: Aumico simplifies the preparation of annual financial statements with standardized workflows and individually adaptable checklists for efficient, error-free annual financial statement documentation and preparation of annual financial statements.
+
+--------------------------------------------------------------------------------
 
 69. mailXpert
-   https://marketplace.bexio.com/en-GB/apps/126229/mailxpert
+   Link: https://marketplace.bexio.com/en-GB/apps/126229/mailxpert
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126229/thumbs_64/img7809809983072650480-2x.png
+   Precio: From CHF 1,590.00 / Year
+   Descripción: The leading Swiss email marketing solution for high mailing volumes and marketing automation. Link mailXpert directly with bexio and send highly personalized newsletters.
+
+--------------------------------------------------------------------------------
 
 70. Triboni Drive for bexio
-   https://marketplace.bexio.com/en-GB/apps/126234/triboni-drive-for-bexio
+   Link: https://marketplace.bexio.com/en-GB/apps/126234/triboni-drive-for-bexio
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126234/thumbs_64/img11120447229047537670-2x.png
+   Precio: From CHF 39.00 / Month
+   Descripción: Comprehensive archive/DMS solution for SMEs. Digitisation, processing and management of all records, including audit-compliant archiving of your documents in accordance with GeBüV. Triboni Drive for bexio takes over all bexio records and automatically creates a corresponding filing structure. The documents are automatically synchronised so that Drive always matches the bexio status.
+
+--------------------------------------------------------------------------------
 
 71. PrivacyBee
-   https://marketplace.bexio.com/en-GB/apps/126240/privacybee
+   Link: https://marketplace.bexio.com/en-GB/apps/126240/privacybee
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126240/thumbs_64/img7097639961116113968-2x.png
+   Precio: From CHF 35.90 / Year
+   Descripción: PrivacyBee is a privacy tool that creates and updates privacy policies quickly, easily, and cost-effectively. It supports compliance with the new Swiss Data Protection Act (nDSG), regularly checks websites for privacy services, and is compatible with all website CMS platforms. PrivacyBee provides multilingual, legally verified, and always up-to-date privacy notices – a real time and money saver.
+
+--------------------------------------------------------------------------------
 
 72. Worldline Tap on Mobile
-   https://marketplace.bexio.com/en-GB/apps/126283/worldline-tap-on-mobile
+   Link: https://marketplace.bexio.com/en-GB/apps/126283/worldline-tap-on-mobile
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126283/thumbs_64/img5663331030433992525-2x.png
+   Precio: Free
+   Descripción: Worldline Tap on Mobile is a simple and secure app for contactless NFC payments without fixed costs or setup fees. Accept various cards and mobile payments. Download the app on your Android or iOS device, register online, and start transactions immediately.
+
+--------------------------------------------------------------------------------
 
 73. Ecwid by BedayaConnect
-   https://marketplace.bexio.com/en-GB/apps/126371/ecwid-by-bedayaconnect
+   Link: https://marketplace.bexio.com/en-GB/apps/126371/ecwid-by-bedayaconnect
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126371/thumbs_64/img2437692065823102449-2x.png
+   Precio: From CHF 24.90 / Month
+   Descripción: Ecwid is the e-commerce platform that allows you to sell easily anywhere to anyone. With the BedayaConnect connector, you get a direct interface to bexio.
+
+--------------------------------------------------------------------------------
 
 74. moneyhouse – Commercial Register Service
-   https://marketplace.bexio.com/en-GB/apps/126601/moneyhouse-%E2%80%93-commercial-register-service
+   Link: https://marketplace.bexio.com/en-GB/apps/126601/moneyhouse-%E2%80%93-commercial-register-service
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126601/thumbs_64/img6245970215283629799-2x.png
+   Precio: From CHF 150.00
+   Descripción: Moneyhouse assists you in carrying out any updates to your commercial register data. We implement the desired changes for you quickly and ensure they are officially registered in the commercial register.
+
+--------------------------------------------------------------------------------
 
 75. eTermin
-   https://marketplace.bexio.com/en-GB/apps/126607/etermin
+   Link: https://marketplace.bexio.com/en-GB/apps/126607/etermin
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126607/thumbs_64/img6888475637976283607-2x.png
+   Precio: From CHF 39.00 / Month
+   Descripción: eTermin is a smart online scheduler for efficient online appointment booking, customer management, and targeted marketing. eTermin saves a significant amount of time and increases revenue.
+
+--------------------------------------------------------------------------------
 
 76. SumUp by BedayaConnect
-   https://marketplace.bexio.com/en-GB/apps/126766/sumup-by-bedayaconnect
+   Link: https://marketplace.bexio.com/en-GB/apps/126766/sumup-by-bedayaconnect
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126766/thumbs_64/img8486571687867272290-2x.png
+   Precio: Free
+   Descripción: Daily posting of sales in bexio accounting. Automatically transfer the SumUp transaction to bexio as an invoice or order.
+
+--------------------------------------------------------------------------------
 
 77. Zytrack
-   https://marketplace.bexio.com/en-GB/apps/126833/zytrack
+   Link: https://marketplace.bexio.com/en-GB/apps/126833/zytrack
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126833/thumbs_64/img7181395122912684928-2x.png
+   Precio: From CHF 6.00 / Month
+   Descripción: Zytrack is a modern, user-friendly software solution for efficient time management and accurate work tracking. With flexible customization options, intuitive usability, and Swiss quality, Zytrack helps businesses of all sizes streamline workflows and reduce costs.
+
+--------------------------------------------------------------------------------
 
 78. Konsento
-   https://marketplace.bexio.com/en-GB/apps/126902/konsento
+   Link: https://marketplace.bexio.com/en-GB/apps/126902/konsento
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126902/thumbs_64/img7411181604686353702-2x.png
+   Precio: From CHF 150.00 / Year
+   Descripción: Benefit from major time and cost savings through automation and embedded legal know-how.Also for capital increases (up to 50% cost savings).
+
+--------------------------------------------------------------------------------
 
 79. Edelwise
-   https://marketplace.bexio.com/en-GB/apps/128533/edelwise
+   Link: https://marketplace.bexio.com/en-GB/apps/128533/edelwise
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/128533/thumbs_64/img6389919440706901845-2x.png
+   Precio: From CHF 17.50 / Month
+   Descripción: Edelwise automatically synchronizes your accounting from bexio and allows you to track your cash flow in real time. Visualize your cash flows and compare variances with your budget forecast.
+
+--------------------------------------------------------------------------------
 
 80. Corebility
-   https://marketplace.bexio.com/en-GB/apps/130702/corebility
+   Link: https://marketplace.bexio.com/en-GB/apps/130702/corebility
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/130702/thumbs_64/img16823966259521403401-2x.png
+   Precio: From CHF 29.00
+   Descripción: Corebility.net is an automated booking system for wellness studios, combining scheduling, reminders, and client management into one seamless platform—saving time and elevating the client experience.
+
+--------------------------------------------------------------------------------
 
 81. bexlook
-   https://marketplace.bexio.com/en-GB/apps/125905/bexlook
+   Link: https://marketplace.bexio.com/en-GB/apps/125905/bexlook
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/125905/thumbs_64/img5527392557102355931-2x.png
+   Precio: From CHF 19.90 / Month
+   Descripción: The fully automated software solution bexlook effortlessly synchronizes all contact details of your customers, suppliers, and partners from bexio to MS Outlook (Microsoft 365).
+
+--------------------------------------------------------------------------------
 
 82. JobCloud - jobs.ch & jobup.ch
-   https://marketplace.bexio.com/en-GB/apps/128294/jobcloud---jobsch-jobupch
+   Link: https://marketplace.bexio.com/en-GB/apps/128294/jobcloud---jobsch-jobupch
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/128294/thumbs_64/img6234162411187069262-2x.png
+   Precio: Free
+   Descripción: Employers have been recruiting with us for 25 years with 95% satisfaction. Join 40,000 companies and use jobs.ch to reach over 1.9 million jobseekers in Switzerland. Start with a free job ad. For more applications, get 20% off paid products. Just enter the voucher code “BEXIO20” at checkout.
+
+--------------------------------------------------------------------------------
 
 83. biscau
-   https://marketplace.bexio.com/en-GB/apps/125839/biscau
+   Link: https://marketplace.bexio.com/en-GB/apps/125839/biscau
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/125839/thumbs_64/img4935207508966612416-2x.png
+   Precio: From CHF 250.00 / Year
+   Descripción: Fiduciaries can create a complete annual financial statement, analysis, or business valuation in just a few minutes. Thanks to AI integration, you work more efficiently, reduce manual processes, and simultaneously improve the quality of your results.
+
+--------------------------------------------------------------------------------
 
 84. Zapier Connector
-   https://marketplace.bexio.com/en-GB/apps/125529/zapier-connector
+   Link: https://marketplace.bexio.com/en-GB/apps/125529/zapier-connector
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/125529/thumbs_64/img6529621153964084094-2x.png
+   Precio: Free
+   Descripción: Zapier allows you to instantly connect bexio with 7000+ apps to automate your work and find productivity super powers.
+
+--------------------------------------------------------------------------------
 
 85. Accrio · CSV Importer
-   https://marketplace.bexio.com/en-GB/apps/126058/accrio-%C2%B7-csv-importer
+   Link: https://marketplace.bexio.com/en-GB/apps/126058/accrio-%C2%B7-csv-importer
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126058/thumbs_64/image2355381148177330064-2x.png
+   Precio: Free
+   Descripción: Automated account assignment and posting of over 100 credit card/revolut transactions within 5 minutes? The CSV importer from Accrio makes it possible - saving time, money and nerves.
+
+--------------------------------------------------------------------------------
 
 86. XfleX for Building Technology
-   https://marketplace.bexio.com/en-GB/apps/126061/xflex-for-building-technology
+   Link: https://marketplace.bexio.com/en-GB/apps/126061/xflex-for-building-technology
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126061/thumbs_64/img1517121171785849687-2x.png
+   Precio: From CHF 169.00 / Month
+   Descripción: Your specialized industry solution with all the features you need for efficient administration: CRM, order processing with IGH catalogs, objects, assets, maintenance contracts, job scheduling, and more.
+
+--------------------------------------------------------------------------------
 
 87. Shopware interface for bexio
-   https://marketplace.bexio.com/en-GB/apps/126063/shopware-interface-for-bexio
+   Link: https://marketplace.bexio.com/en-GB/apps/126063/shopware-interface-for-bexio
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126063/thumbs_64/img7175293467113859535-2x.png
+   Precio: From CHF 69.00 / Month
+   Descripción: Connect Shopware with bexio: Synchronize orders, customers & articles automatically - flexible, secure and GDPR-compliant.
+
+--------------------------------------------------------------------------------
 
 88. Alloy Ads
-   https://marketplace.bexio.com/en-GB/apps/131130/alloy-ads
+   Link: https://marketplace.bexio.com/en-GB/apps/131130/alloy-ads
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/131130/thumbs_64/img8293320520751903171-2x.png
+   Precio: Free
+   Descripción: Alloy Ads is Switzerland’s self-service platform for programmatic advertising – built for marketing professionals who want to manage campaigns efficiently, precisely, and independently. Through one central access point, you can book reach across more than 50 leading Swiss publisher websites in just minutes – with full control over targeting, budget, and performance.
+
+--------------------------------------------------------------------------------
 
 89. JUSTgreen
-   https://marketplace.bexio.com/en-GB/apps/133652/justgreen
+   Link: https://marketplace.bexio.com/en-GB/apps/133652/justgreen
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/133652/thumbs_64/img2452322484327979206-2x.png
+   Precio: From CHF 1.63 / Day
+   Descripción: JUSTgreen ist die einfache und praxisnahe Software für Gartenbau-, Landwirtschafts- und Handwerksbetriebe. Von der Rapporterfassung bis zur Lohnabrechnung – alles läuft digital, übersichtlich und automatisch. Weniger Papierkram, weniger Fehler, mehr Zeit für die eigentliche Arbeit. Erprobt in Schweizer Betrieben, entwickelt von Praktikern für Praktiker.
+
+--------------------------------------------------------------------------------
 
 90. jobalino
-   https://marketplace.bexio.com/en-GB/apps/126055/jobalino
+   Link: https://marketplace.bexio.com/en-GB/apps/126055/jobalino
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126055/thumbs_64/img2116660415023010413-2x.png
+   Precio: CHF 29.00 / Month
+   Descripción: Our multiposting service for Swiss SMEs enables easy publishing of job ads on all relevant job platforms in Switzerland, as well as on social media and Google. Save time, increase reach, and find the best talent!
+
+--------------------------------------------------------------------------------
 
 91. XfleX for Painters
-   https://marketplace.bexio.com/en-GB/apps/126062/xflex-for-painters
+   Link: https://marketplace.bexio.com/en-GB/apps/126062/xflex-for-painters
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126062/thumbs_64/img1401003024072074888-2x.png
+   Precio: From CHF 96.00 / Month
+   Descripción: Your specialized industry solution with all the features you need for streamlined administration: CRM, order processing with service catalogs, reporting, and time tracking according to ZBPK standards, and much more.
+
+--------------------------------------------------------------------------------
 
 92. Arcavis
-   https://marketplace.bexio.com/en-GB/apps/128486/arcavis
+   Link: https://marketplace.bexio.com/en-GB/apps/128486/arcavis
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/128486/thumbs_64/img337892601915309529-2x.png
+   Precio: From CHF 49.00 / Month
+   Descripción: Arcavis is a powerful and comprehensive POS solution with inventory management and CRM for retail in Switzerland.
+
+--------------------------------------------------------------------------------
 
 93. Aequitec
-   https://marketplace.bexio.com/en-GB/apps/132156/aequitec
+   Link: https://marketplace.bexio.com/en-GB/apps/132156/aequitec
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/132156/thumbs_64/img6448738036157200758-2x.png
+   Precio: From CHF 29.00 / Month
+   Descripción: Aequitec is a fintech company based in Zurich that is revolutionizing share management through digital solutions for corporate governance. The platform optimizes share administration, general meetings, and capital measures, ensuring transparency and compliance for companies.
+
+--------------------------------------------------------------------------------
 
 94. Accrio · Fixed Assets
-   https://marketplace.bexio.com/en-GB/apps/126056/accrio-%C2%B7-fixed-assets
+   Link: https://marketplace.bexio.com/en-GB/apps/126056/accrio-%C2%B7-fixed-assets
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126056/thumbs_64/img5494505386282842793-2x.png
+   Precio: From CHF 48.00 / Year
+   Descripción: Depreciating expensive equipment and machines over several years? – With Fixed Assets from Accrio, it's child's play: enter the machine once and have the depreciation calculated at the end of the year with two clicks and send it to bexio.
+
+--------------------------------------------------------------------------------
 
 95. Microsoft Power BI
-   https://marketplace.bexio.com/en-GB/apps/126000/microsoft-power-bi
+   Link: https://marketplace.bexio.com/en-GB/apps/126000/microsoft-power-bi
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126000/thumbs_64/img3048434923664997947-2x.png
+   Precio: Free
+   Descripción: The easy analysis and visualization of bexio data are essential for any company. With Microsoft Power BI, interactive, standardized reports can be created and enriched with data from other sources (Excel, SQL databases, online portals, etc.). Microsoft Power BI can be used as a self-service BI tool, meaning individual reports can be created and customized independently.
+
+--------------------------------------------------------------------------------
 
 96. TimeShepherd
-   https://marketplace.bexio.com/en-GB/apps/126002/timeshepherd
+   Link: https://marketplace.bexio.com/en-GB/apps/126002/timeshepherd
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126002/thumbs_64/img9035786750605433540-2x.png
+   Precio: From CHF 7.50 / Month
+   Descripción: Efficient Time Tracking and Project Management with TimeShepherd TimeShepherd is the ultimate solution for time tracking and project management in your company. With our user-friendly software, you always have a clear overview of work hours, projects, and tasks – whether you’re managing a small team or a large organization.
+
+--------------------------------------------------------------------------------
 
 97. Cyber Risk Monitoring
-   https://marketplace.bexio.com/en-GB/apps/128378/cyber-risk-monitoring
+   Link: https://marketplace.bexio.com/en-GB/apps/128378/cyber-risk-monitoring
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/128378/thumbs_64/img7257505685458699388-2x.png
+   Precio: From CHF 0.00
+   Descripción: Mastercard | CyberMonks Cyber Marketplace In today’s digital age, cybersecurity is vital for businesses of all sizes. If your business relies on a website, safeguarding it against threats is a must. Powered by Mastercard, our cybersecurity tools help you evaluate and strengthen your security with ease.
+
+--------------------------------------------------------------------------------
 
 98. SwissCall.net
-   https://marketplace.bexio.com/en-GB/apps/131049/swisscallnet
+   Link: https://marketplace.bexio.com/en-GB/apps/131049/swisscallnet
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/131049/thumbs_64/img5985810941694626157-2x.png
+   Precio: From CHF 12.45 / Month
+   Descripción: With SwissCall.net, bexio business customers receive a mobile subscription that has been specially developed to meet the needs of SMEs and the self-employed. Together with Sunrise, we offer you top services at an unbeatable price.
+
+--------------------------------------------------------------------------------
 
 99. Revoxio
-   https://marketplace.bexio.com/en-GB/apps/132388/revoxio
+   Link: https://marketplace.bexio.com/en-GB/apps/132388/revoxio
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/132388/thumbs_64/img14287105862618454284-2x.png
+   Precio: From CHF 25.00
+   Descripción: Revoxio automates the import of Revolut Business expenses into bexio. Swiss solution with intelligent category mapping, multi-currency management and OAuth banking security. Save 4-5 hours/month, zero input errors, one-time setup. Pay-as-you-go payment system, multilingual interface and for Swiss SMEs.
+
+--------------------------------------------------------------------------------
 
 100. HOMER
-   https://marketplace.bexio.com/en-GB/apps/134240/homer
+   Link: https://marketplace.bexio.com/en-GB/apps/134240/homer
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/134240/thumbs_64/img10321139929641482639-2x.png
+   Precio: From CHF 179.00 / Month
+   Descripción: HOMER is the innovative platform for IT service providers in Switzerland who want to efficiently automate their recurring services, billing, and customer management. With just a few clicks, you manage subscriptions, invoices, and licenses—fully integrated with interfaces to ALSO, TD Synnex, Azure, and of course bexio. Through the bexio integration, you can also import customer data directly from bexio and automatically synchronize changes from HOMER back to bexio—without switching systems. The integrated self-service portal gives your customers modern access to support requests, contract overviews, and documentation. This lets you present yourself professionally, transparently, and customer-oriented. HOMER connects all key processes of your company: support, time tracking, CRM, documentation, and invoicing come together in one seamless system. This reduces manual work, avoids errors, and frees up valuable time for your customers. The integrated ticketing system collects requests from Microsoft Teams, email, and the HOMER customer portal in one central location. With AI support, you accelerate the handling of support cases, simplify documentation, and optimize internal processes. With HOMER, you digitalize your IT business from A to Z—efficiently, integrated, and future-proof.
+
+--------------------------------------------------------------------------------
 
 101. bexio Pipedrive Data Transfer App
-   https://marketplace.bexio.com/en-GB/apps/125842/bexio-pipedrive-data-transfer-app
+   Link: https://marketplace.bexio.com/en-GB/apps/125842/bexio-pipedrive-data-transfer-app
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/125842/thumbs_64/img3992079870404860313-2x.png
+   Precio: Free
+   Descripción: Reduce manual work and focus on the tasks that matter by automatically moving contacts and organisations from bexio to Pipedrive or Pipedrive to bexio in one click.
+
+--------------------------------------------------------------------------------
 
 102. Accrio · Accruals
-   https://marketplace.bexio.com/en-GB/apps/126057/accrio-%C2%B7-accruals
+   Link: https://marketplace.bexio.com/en-GB/apps/126057/accrio-%C2%B7-accruals
+   Imagen: https://d2uars7xkdmztq.cloudfront.net/app_resources/126057/thumbs_64/image3488163105966125110-2x.png
+   Precio: From CHF 60.00 / Year
+   Descripción: Automate invoice accruals for bexio - save time, money and nerves.
+
+--------------------------------------------------------------------------------
 
