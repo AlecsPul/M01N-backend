@@ -5,8 +5,14 @@ Run this script to populate the applications table with data from apps_encontrad
 """
 import asyncio
 import re
+import sys
+import os
+
+# Add parent directory to path
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from sqlalchemy import select
-from app.database import AsyncSessionLocal, engine
+from app.core.database import AsyncSessionLocal, engine
 from app.models.models import Application
 
 
