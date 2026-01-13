@@ -3,7 +3,7 @@ Database Configuration and Connection
 """
 from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine, async_sessionmaker
 from sqlalchemy.orm import declarative_base
-from app.config import settings
+from app.core.config import settings
 
 # Convert postgresql:// to postgresql+asyncpg:// for async support
 DATABASE_URL = settings.database_url.replace("postgresql://", "postgresql+asyncpg://")

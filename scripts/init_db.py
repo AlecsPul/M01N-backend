@@ -4,8 +4,14 @@ Database Initialization Script
 Run this script to create all tables in the database.
 """
 import asyncio
-from app.database import init_db, engine
-from app.models.models import Application  # Import all models
+import sys
+import os
+
+# Add parent directory to path
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from app.core.database import init_db, engine
+from app.models.models import Application, AppTag  # Import all models
 
 
 async def main():
