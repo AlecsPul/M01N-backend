@@ -1,9 +1,10 @@
 """
 Pydantic Schemas for API validation
 """
-from pydantic import BaseModel, EmailStr, Field
+from pydantic import BaseModel, EmailStr, Field, field_serializer
 from datetime import datetime
 from typing import Optional
+from uuid import UUID
 
 
 # User Schemas
@@ -60,13 +61,19 @@ class ItemResponse(ItemBase):
 # Application Schemas
 class ApplicationLinkResponse(BaseModel):
     """Schema for application link response"""
-    id: str
+    id: UUID  # Accept UUID object, will be serialized to string
     name: str
     description: Optional[str] = None
     url: str
     image_url: Optional[str] = None
     price_text: Optional[str] = None
     stars: Optional[int] = 0  # default since not in DB
+    
+    @field_serializer('id')
+    def serialize_id(self, value: UUID) -> str:
+        """Convert UUID to string for JSON response"""
+        return str(value)
+   
     
     class Config:
         from_attributes = True
