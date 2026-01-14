@@ -128,3 +128,8 @@ class CardDeleteRequest(BaseModel):
 class CardStatusToggleRequest(BaseModel):
     """Schema for toggling card status"""
     card_id: str = Field(..., description="UUID of the card to toggle status")
+
+
+class CardUpvoteRequest(BaseModel):
+    """Schema for upvoting a card"""
+    card_id: str = Field(..., description="UUID of the card to upvote")
