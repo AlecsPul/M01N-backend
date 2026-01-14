@@ -1,0 +1,620 @@
+Total de apps: 102
+Páginas scrapeadas: 9
+Rating promedio: 4.64
+Apps con rating: 33
+Apps sin rating: 69
+
+================================================================================
+
+1. Candia.io
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126102/candiaio
+
+--------------------------------------------------------------------------------
+
+2. swiDOC
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126171/swidoc
+
+--------------------------------------------------------------------------------
+
+3. Factoring & Debt Collection
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126219/factoring-debt-collection
+
+--------------------------------------------------------------------------------
+
+4. Calenso
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126268/calenso
+
+--------------------------------------------------------------------------------
+
+5. Delivery + Planzer Labels by BedayaConnect
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126290/delivery-+-planzer-labels-by-bedayaconnect
+
+--------------------------------------------------------------------------------
+
+6. SMAILD
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126326/smaild
+
+--------------------------------------------------------------------------------
+
+7. WooCommerce Connector by Helvy
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126377/woocommerce-connector-by-helvy
+
+--------------------------------------------------------------------------------
+
+8. sproutAnalytics
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126155/sproutanalytics
+
+--------------------------------------------------------------------------------
+
+9. Shopify Connector by Helvy
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126310/shopify-connector-by-helvy
+
+--------------------------------------------------------------------------------
+
+10. Worldline
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126105/worldline
+
+--------------------------------------------------------------------------------
+
+11. My-Onlineshop
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126187/my-onlineshop
+
+--------------------------------------------------------------------------------
+
+12. Expensly
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126189/expensly
+
+--------------------------------------------------------------------------------
+
+13. Zytrack
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126833/zytrack
+
+--------------------------------------------------------------------------------
+
+14. PepperShop Online Shop
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126911/peppershop-online-shop
+
+--------------------------------------------------------------------------------
+
+15. bexio Pay
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/127056/bexio-pay
+
+--------------------------------------------------------------------------------
+
+16. Triboni for bexio
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126191/triboni-for-bexio
+
+--------------------------------------------------------------------------------
+
+17. firm-it
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126442/firm-it
+
+--------------------------------------------------------------------------------
+
+18. JUSTgreen
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/133652/justgreen
+
+--------------------------------------------------------------------------------
+
+19. QR Module
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/127915/qr-module
+
+--------------------------------------------------------------------------------
+
+20. Microsoft Power BI
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126000/microsoft-power-bi
+
+--------------------------------------------------------------------------------
+
+21. smiit Analytics
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/128971/smiit-analytics
+
+--------------------------------------------------------------------------------
+
+22. Kontera
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126265/kontera
+
+--------------------------------------------------------------------------------
+
+23. TimeStatement
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126438/timestatement
+
+--------------------------------------------------------------------------------
+
+24. app.rombro.ch | import bookings and invoices from Excel or CSV
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126085/apprombroch-%7C-import-bookings-and-invoices-from-excel-or-csv
+
+--------------------------------------------------------------------------------
+
+25. TRESIO
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126075/tresio
+
+--------------------------------------------------------------------------------
+
+26. 2getHR
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126334/2gethr
+
+--------------------------------------------------------------------------------
+
+27. KS Inkasso
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/125899/ks-inkasso
+
+--------------------------------------------------------------------------------
+
+28. Clockodo
+   Rating: 5.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126037/clockodo
+
+--------------------------------------------------------------------------------
+
+29. eBill by iomarket AG
+   Rating: 3.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126626/ebill-by-iomarket-ag
+
+--------------------------------------------------------------------------------
+
+30. bexio Go
+   Rating: 3.0
+   Link: https://marketplace.bexio.com/en-GB/apps/125264/bexio-go
+
+--------------------------------------------------------------------------------
+
+31. tik-tak
+   Rating: 3.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126368/tik-tak
+
+--------------------------------------------------------------------------------
+
+32. Hubspot Connector
+   Rating: 2.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126761/hubspot-connector
+
+--------------------------------------------------------------------------------
+
+33. Qlerqs - AccountingRobot
+   Rating: 2.0
+   Link: https://marketplace.bexio.com/en-GB/apps/126957/qlerqs---accountingrobot
+
+--------------------------------------------------------------------------------
+
+34. brolio
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126088/brolio
+
+--------------------------------------------------------------------------------
+
+35. Business Transaction – Company Valuation for SMEs
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126110/business-transaction-%E2%80%93-company-valuation-for-smes
+
+--------------------------------------------------------------------------------
+
+36. BETREIBUNGSSCHALTER-PLUS
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126150/betreibungsschalter-plus
+
+--------------------------------------------------------------------------------
+
+37. Squadra
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126161/squadra
+
+--------------------------------------------------------------------------------
+
+38. Work2Report
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126173/work2report
+
+--------------------------------------------------------------------------------
+
+39. Swiss Newsletter
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126232/swiss-newsletter
+
+--------------------------------------------------------------------------------
+
+40. Delivery + DPD Labels by BedayaConnect
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126292/delivery-+-dpd-labels-by-bedayaconnect
+
+--------------------------------------------------------------------------------
+
+41. DocuWare for bexio
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126362/docuware-for-bexio
+
+--------------------------------------------------------------------------------
+
+42. Social EDI - gate2b
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126704/social-edi---gate2b
+
+--------------------------------------------------------------------------------
+
+43. Easyplan
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/127035/easyplan
+
+--------------------------------------------------------------------------------
+
+44. wwcom smart call
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/127629/wwcom-smart-call
+
+--------------------------------------------------------------------------------
+
+45. SumUp & PepperShop POS solution
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126263/sumup-peppershop-pos-solution
+
+--------------------------------------------------------------------------------
+
+46. wechselstube.ch
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126300/wechselstubech
+
+--------------------------------------------------------------------------------
+
+47. saldia Onlineshop for bexio
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126119/saldia-onlineshop-for-bexio
+
+--------------------------------------------------------------------------------
+
+48. blueAUDIT
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126083/blueaudit
+
+--------------------------------------------------------------------------------
+
+49. Craftboxx
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126087/craftboxx
+
+--------------------------------------------------------------------------------
+
+50. Business Transaction – Business Succession
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126109/business-transaction-%E2%80%93-business-succession
+
+--------------------------------------------------------------------------------
+
+51. Arvato Financial Solutions
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126115/arvato-financial-solutions
+
+--------------------------------------------------------------------------------
+
+52. SPESEN.AI
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126120/spesenai
+
+--------------------------------------------------------------------------------
+
+53. Legally ok
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126148/legally-ok
+
+--------------------------------------------------------------------------------
+
+54. NetMailer Newsletter-Tool
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126149/netmailer-newsletter-tool
+
+--------------------------------------------------------------------------------
+
+55. Swiss Digital Shipping Solutions
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126159/swiss-digital-shipping-solutions
+
+--------------------------------------------------------------------------------
+
+56. Companion
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126163/companion
+
+--------------------------------------------------------------------------------
+
+57. awork
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126172/awork
+
+--------------------------------------------------------------------------------
+
+58. VisualNumbers
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126174/visualnumbers
+
+--------------------------------------------------------------------------------
+
+59. Local SEO
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126190/local-seo
+
+--------------------------------------------------------------------------------
+
+60. AESTICO
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126212/aestico
+
+--------------------------------------------------------------------------------
+
+61. aumico annual financial statements
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126220/aumico-annual-financial-statements
+
+--------------------------------------------------------------------------------
+
+62. mailXpert
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126229/mailxpert
+
+--------------------------------------------------------------------------------
+
+63. Triboni Drive for bexio
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126234/triboni-drive-for-bexio
+
+--------------------------------------------------------------------------------
+
+64. PrivacyBee
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126240/privacybee
+
+--------------------------------------------------------------------------------
+
+65. Worldline Tap on Mobile
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126283/worldline-tap-on-mobile
+
+--------------------------------------------------------------------------------
+
+66. Ecwid by BedayaConnect
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126371/ecwid-by-bedayaconnect
+
+--------------------------------------------------------------------------------
+
+67. moneyhouse – Commercial Register Service
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126601/moneyhouse-%E2%80%93-commercial-register-service
+
+--------------------------------------------------------------------------------
+
+68. eTermin
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126607/etermin
+
+--------------------------------------------------------------------------------
+
+69. SumUp by BedayaConnect
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126766/sumup-by-bedayaconnect
+
+--------------------------------------------------------------------------------
+
+70. Konsento
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126902/konsento
+
+--------------------------------------------------------------------------------
+
+71. PepperShop POS
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126170/peppershop-pos
+
+--------------------------------------------------------------------------------
+
+72. RESTORE-IT Backup
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126221/restore-it-backup
+
+--------------------------------------------------------------------------------
+
+73. JobCloud - jobs.ch & jobup.ch
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/128294/jobcloud---jobsch-jobupch
+
+--------------------------------------------------------------------------------
+
+74. Accrio · CSV Importer
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126058/accrio-%C2%B7-csv-importer
+
+--------------------------------------------------------------------------------
+
+75. XfleX for Building Technology
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126061/xflex-for-building-technology
+
+--------------------------------------------------------------------------------
+
+76. Shopware interface for bexio
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126063/shopware-interface-for-bexio
+
+--------------------------------------------------------------------------------
+
+77. Alloy Ads
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/131130/alloy-ads
+
+--------------------------------------------------------------------------------
+
+78. jobalino
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126055/jobalino
+
+--------------------------------------------------------------------------------
+
+79. XfleX for Painters
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126062/xflex-for-painters
+
+--------------------------------------------------------------------------------
+
+80. Arcavis
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/128486/arcavis
+
+--------------------------------------------------------------------------------
+
+81. Aequitec
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/132156/aequitec
+
+--------------------------------------------------------------------------------
+
+82. Accrio · Fixed Assets
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126056/accrio-%C2%B7-fixed-assets
+
+--------------------------------------------------------------------------------
+
+83. SwissCall.net
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/131049/swisscallnet
+
+--------------------------------------------------------------------------------
+
+84. Revoxio
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/132388/revoxio
+
+--------------------------------------------------------------------------------
+
+85. Fakturino
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/133879/fakturino
+
+--------------------------------------------------------------------------------
+
+86. HOMER
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/134240/homer
+
+--------------------------------------------------------------------------------
+
+87. Accrio · Accruals
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126057/accrio-%C2%B7-accruals
+
+--------------------------------------------------------------------------------
+
+88. Cyber Risk Monitoring
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/128378/cyber-risk-monitoring
+
+--------------------------------------------------------------------------------
+
+89. SwissDKM for SEO and GEO
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/127696/swissdkm-for-seo-and-geo
+
+--------------------------------------------------------------------------------
+
+90. Legal protection insurance
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/130652/legal-protection-insurance
+
+--------------------------------------------------------------------------------
+
+91. Company modification
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/128530/company-modification
+
+--------------------------------------------------------------------------------
+
+92. Corebility
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/130702/corebility
+
+--------------------------------------------------------------------------------
+
+93. Meisterwerk
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/130195/meisterwerk
+
+--------------------------------------------------------------------------------
+
+94. TimeShepherd
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/126002/timeshepherd
+
+--------------------------------------------------------------------------------
+
+95. Omnilex
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/130804/omnilex
+
+--------------------------------------------------------------------------------
+
+96. bexlook
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/125905/bexlook
+
+--------------------------------------------------------------------------------
+
+97. Edelwise
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/128533/edelwise
+
+--------------------------------------------------------------------------------
+
+98. TinkTime
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/128497/tinktime
+
+--------------------------------------------------------------------------------
+
+99. biscau
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/125839/biscau
+
+--------------------------------------------------------------------------------
+
+100. bexio Pipedrive Data Transfer App
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/125842/bexio-pipedrive-data-transfer-app
+
+--------------------------------------------------------------------------------
+
+101. Marketing Strategy Generator | QOYO.io
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/129789/marketing-strategy-generator-%7C-qoyoio
+
+--------------------------------------------------------------------------------
+
+102. Zapier Connector
+   Rating: No disponible
+   Link: https://marketplace.bexio.com/en-GB/apps/125529/zapier-connector
+
+--------------------------------------------------------------------------------
+
