@@ -30,6 +30,12 @@ async def test_matching_endpoint():
             "buyer_prompt": "Busco software de contabilidad con facturación automática para mi PYME",
             "top_k": 30,
             "top_n": 10
+        },
+        {
+            "name": "Marketing tool with automation",
+            "buyer_prompt": "Necesito una herramienta de marketing con automatización de email y preferiblemente que se integre con Mailchimp",
+            "top_k": 30,
+            "top_n": 10
         }
     ]
     
@@ -56,6 +62,8 @@ async def test_matching_endpoint():
                     print("PARSED REQUIREMENTS:")
                     print(f"  Labels (must): {data['buyer_struct']['labels_must']}")
                     print(f"  Labels (nice): {data['buyer_struct']['labels_nice']}")
+                    print(f"  Tags (must): {data['buyer_struct'].get('tag_must', [])}")
+                    print(f"  Tags (nice): {data['buyer_struct'].get('tag_nice', [])}")
                     print(f"  Integrations (required): {data['buyer_struct']['integration_required']}")
                     print(f"  Integrations (nice): {data['buyer_struct']['integration_nice']}")
                     print(f"  Price max: {data['buyer_struct']['constraints']['price_max']}")

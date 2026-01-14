@@ -50,6 +50,65 @@ def normalize_integration_key(key: str) -> str:
     return key.strip().title()
 
 
+def extract_price_from_text(price_text: Optional[str]) -> Optional[float]:
+    """
+    Extract numeric price from text format.
+    Handles formats like: "CHF 50", "50 CHF/mes", "CHF 50.00", "Gratis", etc.
+    
+    Args:
+        price_text: Price text from database (e.g., "CHF 50", "Gratis")
+    
+    Returns:
+        Float price value or None if not extractable or free
+    """
+    if not price_text:
+        return None
+    
+    price_lower = price_text.lower().strip()
+    
+    # Check for free indicators
+    free_keywords = ['gratis', 'free', 'kostenlos', 'gratuit']
+    if any(keyword in price_lower for keyword in free_keywords):
+        return 0.0
+    
+    # Extract numeric values using regex
+    import re
+    # Match numbers with optional decimal point
+    numbers = re.findall(r'\d+(?:\.\d+)?', price_text)
+    
+    if numbers:
+        # Return the first number found (usually the price)
+        return float(numbers[0])
+    
+    return None
+
+
+def is_within_budget(price_text: Optional[str], price_max: Optional[float]) -> bool:
+    """
+    Check if app price is within buyer's budget.
+    
+    Args:
+        price_text: App price text from database
+        price_max: Maximum price from buyer constraints (None = no limit)
+    
+    Returns:
+        True if within budget or no price constraint exists, False otherwise
+    """
+    # If buyer has no price constraint, always return True
+    if price_max is None:
+        return True
+    
+    # Extract numeric price from text
+    app_price = extract_price_from_text(price_text)
+    
+    # If we can't extract price, be optimistic (don't filter out)
+    if app_price is None:
+        return True
+    
+    # Compare: app is within budget if price <= max
+    return app_price <= price_max
+
+
 async def get_vector_candidates(
     conn: asyncpg.Connection,
     buyer_embedding: List[float],
@@ -73,8 +132,10 @@ async def get_vector_candidates(
         SELECT 
             s.id as app_search_id,
             s.app_id,
+            a.price_text,
             1 - (s.embedding <=> $1::vector) as cosine_similarity
         FROM application_search s
+        INNER JOIN application a ON s.app_id = a.id
         WHERE s.embedding IS NOT NULL
         ORDER BY s.embedding <=> $1::vector
         LIMIT $2
@@ -86,6 +147,7 @@ async def get_vector_candidates(
         {
             "app_search_id": str(row["app_search_id"]),
             "app_id": str(row["app_id"]),
+            "price_text": row["price_text"],
             "cosine_similarity": float(row["cosine_similarity"])
         }
         for row in rows
@@ -158,6 +220,45 @@ async def get_integrations_for_apps(
     return result
 
 
+async def get_tags_for_apps(
+    conn: asyncpg.Connection,
+    app_ids: List[str]
+) -> Dict[str, List[str]]:
+    """
+    Batch fetch tags for multiple apps.
+    Note: apps_tags uses app_id (from application table), not app_search_id.
+    
+    Args:
+        conn: Database connection
+        app_ids: List of app_id UUIDs from application table
+    
+    Returns:
+        Dict mapping app_id -> list of tags
+    """
+    if not app_ids:
+        return {}
+    
+    # Check if apps_tags table exists (it may not be in all schemas)
+    try:
+        query = """
+            SELECT app_id, tag
+            FROM apps_tags
+            WHERE app_id = ANY($1::uuid[])
+        """
+        
+        rows = await conn.fetch(query, app_ids)
+        
+        result = {app_id: [] for app_id in app_ids}
+        for row in rows:
+            app_id = str(row["app_id"])
+            result[app_id].append(row["tag"])
+        
+        return result
+    except Exception:
+        # If table doesn't exist or query fails, return empty dict
+        return {app_id: [] for app_id in app_ids}
+
+
 async def get_label_synonyms(
     conn: asyncpg.Connection,
     labels: List[str]
@@ -205,22 +306,25 @@ def check_must_have_requirements(
     buyer_struct: Dict[str, Any],
     app_labels: List[str],
     app_integrations: List[str],
+    app_tags: List[str],
     label_synonyms: Dict[str, List[str]] = None
 ) -> bool:
     """
     Check if app meets all must-have requirements.
-    Now considers label synonyms when checking required labels.
+    Now considers label synonyms and tags when checking required labels/tags.
     
     Args:
         buyer_struct: Buyer requirements structure
         app_labels: Labels assigned to the app
         app_integrations: Integration keys of the app
+        app_tags: Tags assigned to the app
         label_synonyms: Dict mapping labels to their synonyms (optional)
     
     Returns:
         True if all must-have requirements are met, False otherwise
     """
     labels_must = buyer_struct.get("labels_must", [])
+    tag_must = buyer_struct.get("tag_must", [])
     integration_required = buyer_struct.get("integration_required", [])
     
     # Check required labels (with synonyms support)
@@ -243,6 +347,14 @@ def check_must_have_requirements(
             # No match found (neither exact nor synonym)
             return False
     
+    # Check required tags (case-insensitive comparison)
+    if tag_must:
+        app_tags_lower = set(tag.lower() for tag in app_tags)
+        
+        for required_tag in tag_must:
+            if required_tag.lower() not in app_tags_lower:
+                return False
+    
     # Check required integrations (normalized comparison)
     if integration_required:
         app_integrations_normalized = set(
@@ -261,26 +373,30 @@ def calculate_hybrid_score(
     cosine_similarity: float,
     buyer_struct: Dict[str, Any],
     app_labels: List[str],
-    app_integrations: List[str]
+    app_integrations: List[str],
+    app_tags: List[str]
 ) -> float:
     """
     Calculate hybrid score combining vector similarity and feature overlap.
     
     Weights:
-    - 80% embedding similarity
+    - 60% embedding similarity
     - 15% nice-to-have labels overlap
-    - 5% nice-to-have integrations overlap
+    - 10% nice-to-have tags overlap
+    - 15% nice-to-have integrations overlap
     
     Args:
         cosine_similarity: Vector similarity score [0, 1]
         buyer_struct: Buyer requirements
         app_labels: App labels
         app_integrations: App integration keys
+        app_tags: App tags
     
     Returns:
         Hybrid score in [0, 1] range
     """
     labels_nice = buyer_struct.get("labels_nice", [])
+    tag_nice = buyer_struct.get("tag_nice", [])
     integration_nice = buyer_struct.get("integration_nice", [])
     
     # Normalize integrations for comparison
@@ -295,6 +411,7 @@ def calculate_hybrid_score(
     
     # Calculate overlap ratios
     labels_overlap = overlap_ratio(labels_nice, app_labels)
+    tags_overlap = overlap_ratio(tag_nice, app_tags)
     integrations_overlap = overlap_ratio(
         integration_nice_normalized, 
         app_integrations_normalized
@@ -304,7 +421,8 @@ def calculate_hybrid_score(
     score = (
         (0.60 * cosine_similarity +
         0.15 * labels_overlap +
-        0.25 * integrations_overlap)*0.3 +0.7
+        0.10 * tags_overlap +
+        0.15 * integrations_overlap)*0.3 +0.7
     )
     
     return score
@@ -354,6 +472,8 @@ async def run_match(
             - buyer_text: str
             - labels_must: List[str]
             - labels_nice: List[str]
+            - tag_must: List[str]
+            - tag_nice: List[str]
             - integration_required: List[str]
             - integration_nice: List[str]
             - constraints: {"price_max": float|None}
@@ -373,10 +493,12 @@ async def run_match(
     
     # Extract app_search_ids for batch queries
     app_search_ids = [c["app_search_id"] for c in candidates]
+    app_ids = [c["app_id"] for c in candidates]
     
-    # Step 2: Batch fetch labels and integrations
+    # Step 2: Batch fetch labels, integrations, and tags
     labels_map = await get_labels_for_apps(conn, app_search_ids)
     integrations_map = await get_integrations_for_apps(conn, app_search_ids)
+    tags_map = await get_tags_for_apps(conn, app_ids)
     
     # Step 2.5: Get synonyms for must-have labels
     labels_must = buyer_struct.get("labels_must", [])
@@ -388,20 +510,27 @@ async def run_match(
     for candidate in candidates:
         app_search_id = candidate["app_search_id"]
         app_id = candidate["app_id"]
+        price_text = candidate.get("price_text")
         cosine_sim = candidate["cosine_similarity"]
         
         app_labels = labels_map.get(app_search_id, [])
         app_integrations = integrations_map.get(app_search_id, [])
+        app_tags = tags_map.get(app_id, [])
         
-        # Filter: Check must-have requirements (with synonyms)
+        # Filter: Check must-have requirements (with synonyms and tags)
         meets_requirements = check_must_have_requirements(
             buyer_struct,
             app_labels,
             app_integrations,
+            app_tags,
             label_synonyms
         )
         
-        if not meets_requirements:
+        # Filter: Check price constraint
+        price_max = buyer_struct.get("constraints", {}).get("price_max")
+        within_budget = is_within_budget(price_text, price_max)
+        
+        if not meets_requirements or not within_budget:
             # Strategy: Assign very low score instead of completely discarding
             # This allows some visibility but ranks them at the bottom
             similarity_percent = 5
@@ -411,7 +540,8 @@ async def run_match(
                 cosine_sim,
                 buyer_struct,
                 app_labels,
-                app_integrations
+                app_integrations,
+                app_tags
             )
             
             # Convert to percentage
