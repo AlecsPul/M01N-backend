@@ -31,6 +31,21 @@ FIELD DEFINITIONS:
   - Maximum 6 labels
   - Empty array if none mentioned
 
+• tag_must (array of strings):
+  - Tags/categories that are REQUIRED for the buyer
+  - ONLY use tags from the provided allowed_tags list
+  - Tags represent high-level categories and industries
+  - Look for phrases like: "need", "must have", "required", "necesito"
+  - Maximum 6 tags
+  - Empty array if none are strictly required
+
+• tag_nice (array of strings):
+  - Tags/categories that are NICE TO HAVE but not required
+  - ONLY use tags from the provided allowed_tags list
+  - Look for phrases like: "would be nice", "prefer", "ideally", "sería bueno"
+  - Maximum 6 tags
+  - Empty array if none mentioned
+
 • integration_required (array of strings):
   - External services/platforms that MUST be integrated
   - Open vocabulary (any integration name)
@@ -66,7 +81,9 @@ EXTRACTION GUIDELINES:
 
 VALIDATION:
 - All labels in labels_must and labels_nice MUST exist in allowed_labels
+- All tags in tag_must and tag_nice MUST exist in allowed_tags
 - No duplicates between labels_must and labels_nice
+- No duplicates between tag_must and tag_nice
 - No duplicates between integration_required and integration_nice
 - price_max must be a positive number or null
 - Output must be valid JSON parseable by json.loads()"""
@@ -77,6 +94,9 @@ USER_PROMPT = """Parse the following buyer requirements into structured JSON.
 ALLOWED LABELS (use ONLY these exact strings for labels_must and labels_nice):
 {allowed_labels}
 
+ALLOWED TAGS (use ONLY these exact strings for tag_must and tag_nice):
+{allowed_tags}
+
 BUYER INPUT:
 {buyer_prompt}
 
@@ -85,6 +105,8 @@ Return ONLY the JSON object with this exact structure:
   "buyer_text": "string",
   "labels_must": ["string"],
   "labels_nice": ["string"],
+  "tag_must": ["string"],
+  "tag_nice": ["string"],
   "integration_required": ["string"],
   "integration_nice": ["string"],
   "constraints": {{
@@ -105,24 +127,43 @@ LABEL_CATALOG = [
 ]
 
 
-def format_user_prompt(buyer_prompt: str, allowed_labels: list = None) -> str:
+# Tag catalog for categories
+TAG_CATALOG = [
+    "Time tracking & appointment scheduling",
+    "Connector apps",
+    "Finances & Accounting",
+    "CRM & marketing",
+    "Receipts & expenses",
+    "Sales",
+    "Analytics & reporting",
+    "Security & digital archiving",
+    "Industry solutions"
+]
+
+
+def format_user_prompt(buyer_prompt: str, allowed_labels: list = None, allowed_tags: list = None) -> str:
     """
-    Format the user prompt with buyer input and allowed labels.
+    Format the user prompt with buyer input and allowed labels/tags.
     
     Args:
         buyer_prompt: Natural language requirements from the buyer
         allowed_labels: List of allowed label strings (defaults to LABEL_CATALOG)
+        allowed_tags: List of allowed tag strings (defaults to TAG_CATALOG)
     
     Returns:
         Formatted user prompt ready for OpenAI
     """
     if allowed_labels is None:
         allowed_labels = LABEL_CATALOG
+    if allowed_tags is None:
+        allowed_tags = TAG_CATALOG
     
     labels_str = ", ".join(f'"{label}"' for label in allowed_labels)
+    tags_str = ", ".join(f'"{tag}"' for tag in allowed_tags)
     
     return USER_PROMPT.format(
         allowed_labels=labels_str,
+        allowed_tags=tags_str,
         buyer_prompt=buyer_prompt
     )
 
