@@ -123,3 +123,8 @@ class CardResponse(BaseModel):
 class CardDeleteRequest(BaseModel):
     """Schema for deleting a card"""
     card_id: str = Field(..., description="UUID of the card to delete")
+
+
+class CardStatusToggleRequest(BaseModel):
+    """Schema for toggling card status"""
+    card_id: str = Field(..., description="UUID of the card to toggle status")
