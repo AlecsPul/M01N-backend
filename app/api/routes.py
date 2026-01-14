@@ -8,8 +8,8 @@ from typing import List
 from uuid import UUID
 
 from app.core.database import get_db
-from app.models.models import Application, Card, CardPromptComment
-from app.schemas.schemas import ApplicationLinkResponse, CardResponse, CardDeleteRequest, CardStatusToggleRequest, CardPromptCommentResponse, CardUpvoteRequest, MessageResponse
+from app.models.models import Application, Card, CardPromptComment, ApplicationClick
+from app.schemas.schemas import ApplicationLinkResponse, ApplicationClickRequest, CardResponse, CardDeleteRequest, CardStatusToggleRequest, CardPromptCommentResponse, CardUpvoteRequest, MessageResponse
 
 router = APIRouter(prefix="/api/v1", tags=["application"])
 
@@ -177,3 +177,32 @@ async def upvote_card(
     await db.refresh(card)
     
     return card
+
+
+@router.post("/application/click", response_model=ApplicationLinkResponse)
+async def increment_application_click(
+    request: ApplicationClickRequest,
+    db: AsyncSession = Depends(get_db)
+):
+    """Record a click for an application (for analytics and statistics)"""
+    try:
+        app_uuid = UUID(request.app_id)
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Invalid application ID format")
+    
+    # Verify application exists
+    result = await db.execute(
+        select(Application).where(Application.id == app_uuid)
+    )
+    app = result.scalar_one_or_none()
+    
+    if not app:
+        raise HTTPException(status_code=404, detail="Application not found")
+    
+    # Insert a new click record for analytics
+    new_click = ApplicationClick(app_id=app_uuid)
+    db.add(new_click)
+    await db.commit()
+    await db.refresh(app)
+    
+    return app

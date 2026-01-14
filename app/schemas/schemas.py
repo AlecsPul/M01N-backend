@@ -150,3 +150,8 @@ class CardPromptCommentResponse(BaseModel):
 class CardUpvoteRequest(BaseModel):
     """Schema for upvoting a card"""
     card_id: str = Field(..., description="UUID of the card to upvote")
+
+
+class ApplicationClickRequest(BaseModel):
+    """Schema for incrementing application clicks"""
+    app_id: str = Field(..., description="UUID of the application to increment clicks")
