@@ -8,8 +8,8 @@ from typing import List
 from uuid import UUID
 
 from app.core.database import get_db
-from app.models.models import Application, Card
-from app.schemas.schemas import ApplicationLinkResponse, CardResponse, CardDeleteRequest, CardStatusToggleRequest, MessageResponse
+from app.models.models import Application, Card, CardPromptComment
+from app.schemas.schemas import ApplicationLinkResponse, CardResponse, CardDeleteRequest, CardStatusToggleRequest, CardPromptCommentResponse, MessageResponse
 
 router = APIRouter(prefix="/api/v1", tags=["application"])
 
@@ -63,6 +63,35 @@ async def get_card(
         raise HTTPException(status_code=404, detail="Card not found")
     
     return card
+
+
+@router.get("/cards/{card_id}/comments", response_model=List[CardPromptCommentResponse])
+async def get_card_comments(
+    card_id: str,
+    db: AsyncSession = Depends(get_db)
+):
+    """Get all prompts and comments for a specific card"""
+    try:
+        card_uuid = UUID(card_id)
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Invalid card ID format")
+    
+    # Verify card exists
+    card_result = await db.execute(
+        select(Card).where(Card.id == card_uuid)
+    )
+    card = card_result.scalar_one_or_none()
+    
+    if not card:
+        raise HTTPException(status_code=404, detail="Card not found")
+    
+    # Get all prompts and comments for this card
+    result = await db.execute(
+        select(CardPromptComment).where(CardPromptComment.card_id == card_uuid)
+    )
+    comments = result.scalars().all()
+    
+    return comments
 
 
 @router.post("/dropcard", response_model=MessageResponse)
