@@ -9,7 +9,7 @@ from uuid import UUID
 
 from app.core.database import get_db
 from app.models.models import Application, Card, CardPromptComment, ApplicationClick, AppTag
-from app.schemas.schemas import ApplicationLinkResponse, ApplicationClickRequest, CardResponse, CardDeleteRequest, CardStatusToggleRequest, CardPromptCommentResponse, CardUpvoteRequest, MessageResponse, ClickStatsResponse, CategoryAnalyticsResponse
+from app.schemas.schemas import ApplicationLinkResponse, ApplicationClickRequest, CardResponse, CardDeleteRequest, CardStatusToggleRequest, CardPromptCommentResponse, CardUpvoteRequest, MessageResponse, ClickStatsResponse, CategoryAnalyticsResponse, TopCategoriesResponse, CategoryClickStats
 
 router = APIRouter(prefix="/api/v1", tags=["application"])
 
@@ -306,4 +306,51 @@ async def get_category_analytics(
         total_clicks=total_clicks,
         percentage=round(percentage, 2),
         app_count=app_count
+    )
+
+
+@router.get("/application/clicks/top-categories", response_model=TopCategoriesResponse)
+async def get_top_clicked_categories(
+    limit: int = 5,
+    db: AsyncSession = Depends(get_db)
+):
+    """Get top N categories by click count with percentages for graphing"""
+    from sqlalchemy import func
+    
+    # Get total clicks
+    total_clicks_result = await db.execute(
+        select(func.count(ApplicationClick.id))
+    )
+    total_clicks = total_clicks_result.scalar() or 0
+    
+    # Get clicks per category with app counts
+    category_stats_result = await db.execute(
+        select(
+            AppTag.tag,
+            func.count(ApplicationClick.id).label('click_count'),
+            func.count(func.distinct(Application.id)).label('app_count')
+        )
+        .join(Application, AppTag.app_id == Application.id)
+        .outerjoin(ApplicationClick, Application.id == ApplicationClick.app_id)
+        .group_by(AppTag.tag)
+        .order_by(func.count(ApplicationClick.id).desc())
+        .limit(limit)
+    )
+    
+    category_stats = category_stats_result.all()
+    
+    # Build response with percentages
+    categories = []
+    for tag, click_count, app_count in category_stats:
+        percentage = (click_count / total_clicks * 100) if total_clicks > 0 else 0.0
+        categories.append(CategoryClickStats(
+            category=tag,
+            click_count=click_count,
+            percentage=round(percentage, 2),
+            app_count=app_count
+        ))
+    
+    return TopCategoriesResponse(
+        total_clicks=total_clicks,
+        categories=categories
     )
