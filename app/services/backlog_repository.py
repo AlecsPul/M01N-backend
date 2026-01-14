@@ -107,7 +107,9 @@ async def create_new_card_with_prompt(
             title=title.strip(),
             description=description.strip(),
             status=1,
-            number_of_requests=1
+            number_of_requests=1,
+            upvote=1,
+            created_by_bexio=True
         )
         db.add(new_card)
         
@@ -126,6 +128,54 @@ async def create_new_card_with_prompt(
     except Exception as e:
         await db.rollback()
         raise Exception(f"Failed to create new card: {str(e)}")
+
+
+async def create_manual_card(
+    db: AsyncSession,
+    title: str,
+    description: str
+) -> UUID:
+    """
+    Create a new card manually (created by developers, not from Bexio).
+    This card has no associated prompts/comments and created_by_bexio = False.
+    
+    Args:
+        db: Database session
+        title: Card title
+        description: Card description
+    
+    Returns:
+        card_id of newly created card
+    
+    Raises:
+        ValueError: If required fields are empty
+        Exception: If transaction fails
+    """
+    if not title or not title.strip():
+        raise ValueError("title is required and cannot be empty")
+    
+    if not description or not description.strip():
+        raise ValueError("description is required and cannot be empty")
+    
+    try:
+        new_card = Card(
+            id=uuid4(),
+            title=title.strip(),
+            description=description.strip(),
+            status=1,
+            number_of_requests=0,
+            upvote=1,
+            created_by_bexio=False
+        )
+        db.add(new_card)
+        
+        await db.commit()
+        
+        return new_card.id
+    
+    except Exception as e:
+        await db.rollback()
+        raise Exception(f"Failed to create manual card: {str(e)}")
 
 
 async def increment_card_requests(

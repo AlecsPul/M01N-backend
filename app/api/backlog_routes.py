@@ -7,10 +7,10 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from uuid import UUID
 
 from app.core.database import get_db
-from app.schemas.backlog import BacklogIngestRequest, BacklogIngestResponse
+from app.schemas.backlog import BacklogIngestRequest, BacklogIngestResponse, CreateCardRequest, CreateCardResponse
 from app.services.backlog_matcher import find_matching_card_id
 from app.services.backlog_card_generation import generate_card_title_description
-from app.services.backlog_repository import process_incoming_request
+from app.services.backlog_repository import process_incoming_request, create_manual_card
 
 
 router = APIRouter(prefix="/api/v1/backlog", tags=["Backlog"])
@@ -112,5 +112,57 @@ async def health_check():
     return {
         "status": "healthy",
         "service": "backlog",
-        "endpoints": ["/ingest"]
+        "endpoints": ["/ingest", "/cards"]
     }
+
+
+@router.post(
+    "/cards",
+    response_model=CreateCardResponse,
+    status_code=status.HTTP_201_CREATED,
+    summary="Create a new card manually",
+    description="""
+    Create a new backlog card manually (by developers, not from Bexio).
+    
+    The card is created with:
+    - Provided title and description
+    - created_by_bexio = False
+    - number_of_requests = 0
+    - status = 1 (active)
+    - No associated prompts or comments
+    
+    This endpoint is for developers to manually add feature requests to the backlog.
+    """
+)
+async def create_card(
+    request: CreateCardRequest,
+    db: AsyncSession = Depends(get_db)
+):
+    """
+    Create a new card manually with title and description.
+    Returns the created card details including the card_id.
+    """
+    try:
+        card_id = await create_manual_card(
+            db=db,
+            title=request.title,
+            description=request.description
+        )
+        
+        return CreateCardResponse(
+            card_id=str(card_id),
+            title=request.title,
+            description=request.description
+        )
+    
+    except ValueError as e:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail=f"Invalid input: {str(e)}"
+        )
+    
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to create card: {str(e)}"
+        )
