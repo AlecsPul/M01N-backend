@@ -10,9 +10,9 @@ from app.core.config import settings
 from app.core.database import init_db, close_db
 from app.api import routes
 from app.api import openai_routes
-from app.api import matching_routes
-from app.api import backlog_routes
 from app.api import provider_suggestions_routes
+from app.api import comparison_routes
+from app.api import interactive_match_routes
 
 
 @asynccontextmanager
@@ -53,9 +53,9 @@ app.add_middleware(
 # Include routers
 app.include_router(routes.router)
 app.include_router(openai_routes.router)
-app.include_router(matching_routes.router)
-app.include_router(backlog_routes.router)
 app.include_router(provider_suggestions_routes.router)
+app.include_router(comparison_routes.router)
+app.include_router(interactive_match_routes.router)
 
 
 # Root endpoint

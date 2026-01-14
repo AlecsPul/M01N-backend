@@ -311,20 +311,20 @@ def check_must_have_requirements(
 ) -> bool:
     """
     Check if app meets all must-have requirements.
-    Now considers label synonyms and tags when checking required labels/tags.
+    Now considers label synonyms when checking required labels.
+    Note: tag_must is NOT checked here - it's part of the hybrid score instead.
     
     Args:
         buyer_struct: Buyer requirements structure
         app_labels: Labels assigned to the app
         app_integrations: Integration keys of the app
-        app_tags: Tags assigned to the app
+        app_tags: Tags assigned to the app (not used in filtering)
         label_synonyms: Dict mapping labels to their synonyms (optional)
     
     Returns:
         True if all must-have requirements are met, False otherwise
     """
     labels_must = buyer_struct.get("labels_must", [])
-    tag_must = buyer_struct.get("tag_must", [])
     integration_required = buyer_struct.get("integration_required", [])
     
     # Check required labels (with synonyms support)
@@ -346,14 +346,6 @@ def check_must_have_requirements(
             
             # No match found (neither exact nor synonym)
             return False
-    
-    # Check required tags (case-insensitive comparison)
-    if tag_must:
-        app_tags_lower = set(tag.lower() for tag in app_tags)
-        
-        for required_tag in tag_must:
-            if required_tag.lower() not in app_tags_lower:
-                return False
     
     # Check required integrations (normalized comparison)
     if integration_required:
@@ -381,9 +373,10 @@ def calculate_hybrid_score(
     
     Weights:
     - 60% embedding similarity
-    - 15% nice-to-have labels overlap
-    - 10% nice-to-have tags overlap
-    - 15% nice-to-have integrations overlap
+    - 10% must-have tags overlap (tag_must)
+    - 10% nice-to-have labels overlap (labels_nice)
+    - 5% nice-to-have tags overlap (tag_nice)
+    - 15% nice-to-have integrations overlap (integration_nice)
     
     Args:
         cosine_similarity: Vector similarity score [0, 1]
@@ -396,6 +389,7 @@ def calculate_hybrid_score(
         Hybrid score in [0, 1] range
     """
     labels_nice = buyer_struct.get("labels_nice", [])
+    tag_must = buyer_struct.get("tag_must", [])
     tag_nice = buyer_struct.get("tag_nice", [])
     integration_nice = buyer_struct.get("integration_nice", [])
     
@@ -410,19 +404,21 @@ def calculate_hybrid_score(
     ]
     
     # Calculate overlap ratios
-    labels_overlap = overlap_ratio(labels_nice, app_labels)
-    tags_overlap = overlap_ratio(tag_nice, app_tags)
-    integrations_overlap = overlap_ratio(
+    labels_nice_overlap = overlap_ratio(labels_nice, app_labels)
+    tag_must_overlap = overlap_ratio(tag_must, app_tags)
+    tag_nice_overlap = overlap_ratio(tag_nice, app_tags)
+    integrations_nice_overlap = overlap_ratio(
         integration_nice_normalized, 
         app_integrations_normalized
     )
     
-    # Weighted hybrid score
+    # Weighted hybrid score (total: 100%)
     score = (
         (0.60 * cosine_similarity +
-        0.15 * labels_overlap +
-        0.10 * tags_overlap +
-        0.15 * integrations_overlap)*0.3 +0.7
+        0.10 * tag_must_overlap +
+        0.10 * labels_nice_overlap +
+        0.05 * tag_nice_overlap +
+        0.15 * integrations_nice_overlap)*0.3 +0.7
     )
     
     return score
