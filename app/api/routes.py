@@ -9,7 +9,7 @@ from uuid import UUID
 
 from app.core.database import get_db
 from app.models.models import Application, Card
-from app.schemas.schemas import ApplicationLinkResponse, CardResponse, CardDeleteRequest, MessageResponse
+from app.schemas.schemas import ApplicationLinkResponse, CardResponse, CardDeleteRequest, CardStatusToggleRequest, MessageResponse
 
 router = APIRouter(prefix="/api/v1", tags=["application"])
 
@@ -67,3 +67,32 @@ async def drop_card(
     await db.commit()
     
     return MessageResponse(message=f"Card '{card.title}' deleted successfully")
+
+
+@router.post("/cards/toggle-status", response_model=CardResponse)
+async def toggle_card_status(
+    request: CardStatusToggleRequest,
+    db: AsyncSession = Depends(get_db)
+):
+    """Toggle card status between 0 (not completed) and 1 (completed)"""
+    try:
+        card_uuid = UUID(request.card_id)
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Invalid card ID format")
+    
+    # Find the card
+    result = await db.execute(
+        select(Card).where(Card.id == card_uuid)
+    )
+    card = result.scalar_one_or_none()
+    
+    if not card:
+        raise HTTPException(status_code=404, detail="Card not found")
+    
+    # Toggle status between 0 and 1
+    card.status = 1 if card.status == 0 else 0
+    
+    await db.commit()
+    await db.refresh(card)
+    
+    return card
