@@ -130,6 +130,22 @@ class CardStatusToggleRequest(BaseModel):
     card_id: str = Field(..., description="UUID of the card to toggle status")
 
 
+class CardPromptCommentResponse(BaseModel):
+    """Schema for card prompt and comment response"""
+    id: UUID
+    card_id: UUID
+    prompt_text: str
+    comment_text: Optional[str] = None
+    created_at: datetime
+    updated_at: Optional[datetime] = None
+    
+    @field_serializer('id', 'card_id')
+    def serialize_uuid(self, value: UUID) -> str:
+        """Convert UUID to string for JSON response"""
+        return str(value)
+    
+    class Config:
+        from_attributes = True
 class CardUpvoteRequest(BaseModel):
     """Schema for upvoting a card"""
     card_id: str = Field(..., description="UUID of the card to upvote")
