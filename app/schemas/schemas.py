@@ -118,3 +118,8 @@ class CardResponse(BaseModel):
     
     class Config:
         from_attributes = True
+
+
+class CardDeleteRequest(BaseModel):
+    """Schema for deleting a card"""
+    card_id: str = Field(..., description="UUID of the card to delete")
