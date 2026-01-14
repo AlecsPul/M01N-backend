@@ -73,3 +73,15 @@ class CardPromptComment(Base):
 
     def __repr__(self):
         return f"<CardPrompt {self.id} for Card {self.card_id}>"
+
+
+class ApplicationClick(Base):
+    """Application clicks tracking model for analytics"""
+    __tablename__ = "application_clicks"
+
+    id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4, index=True)
+    app_id = Column(UUID(as_uuid=True), ForeignKey("application.id", ondelete="CASCADE"), nullable=False, index=True)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+    def __repr__(self):
+        return f"<ApplicationClick {self.id} for App {self.app_id}>"
