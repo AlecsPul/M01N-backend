@@ -172,3 +172,17 @@ class CategoryAnalyticsResponse(BaseModel):
     total_clicks: int
     percentage: float
     app_count: int
+
+
+class CategoryClickStats(BaseModel):
+    """Schema for individual category click statistics"""
+    category: str
+    click_count: int
+    percentage: float
+    app_count: int
+
+
+class TopCategoriesResponse(BaseModel):
+    """Schema for top categories analytics"""
+    total_clicks: int
+    categories: List[CategoryClickStats]
