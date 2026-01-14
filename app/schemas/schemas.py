@@ -146,3 +146,6 @@ class CardPromptCommentResponse(BaseModel):
     
     class Config:
         from_attributes = True
+class CardUpvoteRequest(BaseModel):
+    """Schema for upvoting a card"""
+    card_id: str = Field(..., description="UUID of the card to upvote")

@@ -9,7 +9,7 @@ from uuid import UUID
 
 from app.core.database import get_db
 from app.models.models import Application, Card, CardPromptComment
-from app.schemas.schemas import ApplicationLinkResponse, CardResponse, CardDeleteRequest, CardStatusToggleRequest, CardPromptCommentResponse, MessageResponse
+from app.schemas.schemas import ApplicationLinkResponse, CardResponse, CardDeleteRequest, CardStatusToggleRequest, CardPromptCommentResponse, CardUpvoteRequest, MessageResponse
 
 router = APIRouter(prefix="/api/v1", tags=["application"])
 
@@ -143,6 +143,35 @@ async def toggle_card_status(
     
     # Toggle status between 0 and 1
     card.status = 1 if card.status == 0 else 0
+    
+    await db.commit()
+    await db.refresh(card)
+    
+    return card
+
+
+@router.post("/cards/upvote", response_model=CardResponse)
+async def upvote_card(
+    request: CardUpvoteRequest,
+    db: AsyncSession = Depends(get_db)
+):
+    """Increment the upvote count (number_of_requests) for a card"""
+    try:
+        card_uuid = UUID(request.card_id)
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Invalid card ID format")
+    
+    # Find the card
+    result = await db.execute(
+        select(Card).where(Card.id == card_uuid)
+    )
+    card = result.scalar_one_or_none()
+    
+    if not card:
+        raise HTTPException(status_code=404, detail="Card not found")
+    
+    # Increment upvote count
+    card.number_of_requests += 1
     
     await db.commit()
     await db.refresh(card)
