@@ -1,14 +1,15 @@
 """
 API Routes with Database Integration
 """
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 from typing import List
+from uuid import UUID
 
 from app.core.database import get_db
 from app.models.models import Application, Card
-from app.schemas.schemas import ApplicationLinkResponse, CardResponse
+from app.schemas.schemas import ApplicationLinkResponse, CardResponse, CardDeleteRequest, MessageResponse
 
 router = APIRouter(prefix="/api/v1", tags=["application"])
 
@@ -39,3 +40,30 @@ async def get_all_cards(
     )
     cards = result.scalars().all()
     return cards
+
+
+@router.post("/dropcard", response_model=MessageResponse)
+async def drop_card(
+    request: CardDeleteRequest,
+    db: AsyncSession = Depends(get_db)
+):
+    """Delete a card from the database"""
+    try:
+        card_uuid = UUID(request.card_id)
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Invalid card ID format")
+    
+    # Find the card
+    result = await db.execute(
+        select(Card).where(Card.id == card_uuid)
+    )
+    card = result.scalar_one_or_none()
+    
+    if not card:
+        raise HTTPException(status_code=404, detail="Card not found")
+    
+    # Delete the card
+    await db.delete(card)
+    await db.commit()
+    
+    return MessageResponse(message=f"Card '{card.title}' deleted successfully")
