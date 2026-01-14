@@ -8,8 +8,8 @@ from typing import List
 from uuid import UUID
 
 from app.core.database import get_db
-from app.models.models import Application, Card, CardPromptComment, ApplicationClick
-from app.schemas.schemas import ApplicationLinkResponse, ApplicationClickRequest, CardResponse, CardDeleteRequest, CardStatusToggleRequest, CardPromptCommentResponse, CardUpvoteRequest, MessageResponse
+from app.models.models import Application, Card, CardPromptComment, ApplicationClick, AppTag
+from app.schemas.schemas import ApplicationLinkResponse, ApplicationClickRequest, CardResponse, CardDeleteRequest, CardStatusToggleRequest, CardPromptCommentResponse, CardUpvoteRequest, MessageResponse, ClickStatsResponse, CategoryAnalyticsResponse
 
 router = APIRouter(prefix="/api/v1", tags=["application"])
 
@@ -206,3 +206,104 @@ async def increment_application_click(
     await db.refresh(app)
     
     return app
+
+
+@router.get("/application/clicks/stats", response_model=List[ClickStatsResponse])
+async def get_click_statistics(
+    category: str = None,
+    db: AsyncSession = Depends(get_db)
+):
+    """Get click statistics for applications, optionally filtered by category"""
+    from sqlalchemy import func
+    
+    # Base query to count clicks per application
+    query = select(
+        Application.id,
+        Application.name,
+        func.count(ApplicationClick.id).label('click_count')
+    ).outerjoin(
+        ApplicationClick, Application.id == ApplicationClick.app_id
+    )
+    
+    # If category filter is provided, join with AppTag
+    if category:
+        query = query.join(
+            AppTag, Application.id == AppTag.app_id
+        ).where(
+            AppTag.tag == category
+        )
+    
+    # Group by application
+    query = query.group_by(Application.id, Application.name)
+    
+    result = await db.execute(query)
+    stats = result.all()
+    
+    # Fetch tags for each app
+    response_data = []
+    for app_id, app_name, click_count in stats:
+        # Get tags for this app
+        tags_result = await db.execute(
+            select(AppTag.tag).where(AppTag.app_id == app_id)
+        )
+        tags = [tag[0] for tag in tags_result.all()]
+        
+        response_data.append(ClickStatsResponse(
+            app_id=str(app_id),
+            app_name=app_name,
+            click_count=click_count,
+            tags=tags
+        ))
+    
+    return response_data
+
+
+@router.get("/application/clicks/category-analytics", response_model=CategoryAnalyticsResponse)
+async def get_category_analytics(
+    category: str = None,
+    db: AsyncSession = Depends(get_db)
+):
+    """Get click analytics showing percentage of clicks from a specific category"""
+    from sqlalchemy import func
+    
+    # Get total clicks across all applications
+    total_clicks_result = await db.execute(
+        select(func.count(ApplicationClick.id))
+    )
+    total_clicks = total_clicks_result.scalar() or 0
+    
+    if category:
+        # Get clicks for apps in the specified category
+        category_clicks_result = await db.execute(
+            select(func.count(ApplicationClick.id))
+            .join(Application, ApplicationClick.app_id == Application.id)
+            .join(AppTag, Application.id == AppTag.app_id)
+            .where(AppTag.tag == category)
+        )
+        category_clicks = category_clicks_result.scalar() or 0
+        
+        # Get count of apps in this category
+        app_count_result = await db.execute(
+            select(func.count(func.distinct(Application.id)))
+            .join(AppTag, Application.id == AppTag.app_id)
+            .where(AppTag.tag == category)
+        )
+        app_count = app_count_result.scalar() or 0
+    else:
+        # If no category specified, category_clicks = total_clicks
+        category_clicks = total_clicks
+        app_count_result = await db.execute(
+            select(func.count(Application.id))
+        )
+        app_count = app_count_result.scalar() or 0
+    
+    # Calculate percentage
+    percentage = (category_clicks / total_clicks * 100) if total_clicks > 0 else 0.0
+    
+    return CategoryAnalyticsResponse(
+        category=category,
+        category_clicks=category_clicks,
+        total_clicks=total_clicks,
+        percentage=round(percentage, 2),
+        app_count=app_count
+    )

@@ -155,3 +155,20 @@ class CardUpvoteRequest(BaseModel):
 class ApplicationClickRequest(BaseModel):
     """Schema for incrementing application clicks"""
     app_id: str = Field(..., description="UUID of the application to increment clicks")
+
+
+class ClickStatsResponse(BaseModel):
+    """Schema for application click statistics"""
+    app_id: str
+    app_name: str
+    click_count: int
+    tags: List[str] = []
+
+
+class CategoryAnalyticsResponse(BaseModel):
+    """Schema for category analytics with percentage calculations"""
+    category: Optional[str] = None
+    category_clicks: int
+    total_clicks: int
+    percentage: float
+    app_count: int
