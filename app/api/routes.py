@@ -42,6 +42,29 @@ async def get_all_cards(
     return cards
 
 
+@router.get("/cards/{card_id}", response_model=CardResponse)
+async def get_card(
+    card_id: str,
+    db: AsyncSession = Depends(get_db)
+):
+    """Get a specific card by ID"""
+    try:
+        card_uuid = UUID(card_id)
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Invalid card ID format")
+    
+    # Find the card
+    result = await db.execute(
+        select(Card).where(Card.id == card_uuid)
+    )
+    card = result.scalar_one_or_none()
+    
+    if not card:
+        raise HTTPException(status_code=404, detail="Card not found")
+    
+    return card
+
+
 @router.post("/dropcard", response_model=MessageResponse)
 async def drop_card(
     request: CardDeleteRequest,
