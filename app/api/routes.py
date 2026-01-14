@@ -2,11 +2,14 @@
 API Routes with Database Integration
 """
 from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 from typing import List
 
 from app.core.database import get_db
+from app.models.models import Application
+from app.schemas.schemas import ApplicationLinkResponse
 from app.models.models import Application
 from app.schemas.schemas import ApplicationLinkResponse
 
@@ -25,3 +28,4 @@ async def get_application_links(
     )
     application = result.scalars().all()
     return application
+
