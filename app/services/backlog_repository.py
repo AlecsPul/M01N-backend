@@ -5,7 +5,7 @@ Database operations for backlog cards and prompts.
 from uuid import UUID, uuid4
 from typing import Optional, List
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select, update
+from sqlalchemy import false, select, update
 from app.models.models import Card, CardPromptComment
 
 
@@ -109,7 +109,7 @@ async def create_new_card_with_prompt(
             status=1,
             number_of_requests=1,
             upvote=1,
-            created_by_bexio=True
+            created_by_bexio=false
         )
         db.add(new_card)
         
