@@ -98,3 +98,23 @@ class HealthResponse(BaseModel):
     status: str
     version: str
     database: str
+
+
+# Card Schemas
+class CardResponse(BaseModel):
+    """Schema for card response"""
+    id: UUID
+    title: str
+    description: Optional[str] = None
+    status: int
+    number_of_requests: int
+    created_at: datetime
+    updated_at: Optional[datetime] = None
+    
+    @field_serializer('id')
+    def serialize_id(self, value: UUID) -> str:
+        """Convert UUID to string for JSON response"""
+        return str(value)
+    
+    class Config:
+        from_attributes = True
