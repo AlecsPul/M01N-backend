@@ -108,6 +108,7 @@ class CardResponse(BaseModel):
     description: Optional[str] = None
     status: int
     number_of_requests: int
+    upvote: Optional[int] = 0
     created_at: datetime
     updated_at: Optional[datetime] = None
     

@@ -170,8 +170,8 @@ async def upvote_card(
     if not card:
         raise HTTPException(status_code=404, detail="Card not found")
     
-    # Increment upvote count
-    card.number_of_requests += 1
+    # Increment upvote count (initialize to 0 if None)
+    card.upvote = (card.upvote or 0) + 1
     
     await db.commit()
     await db.refresh(card)
