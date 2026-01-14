@@ -12,6 +12,7 @@ from app.api import routes
 from app.api import openai_routes
 from app.api import matching_routes
 from app.api import backlog_routes
+from app.api import provider_suggestions_routes
 
 
 @asynccontextmanager
@@ -54,6 +55,7 @@ app.include_router(routes.router)
 app.include_router(openai_routes.router)
 app.include_router(matching_routes.router)
 app.include_router(backlog_routes.router)
+app.include_router(provider_suggestions_routes.router)
 
 
 # Root endpoint
