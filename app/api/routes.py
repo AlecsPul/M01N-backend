@@ -25,4 +25,3 @@ async def get_application_links(
     )
     application = result.scalars().all()
     return application
-
