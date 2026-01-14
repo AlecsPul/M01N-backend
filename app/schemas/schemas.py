@@ -108,6 +108,8 @@ class CardResponse(BaseModel):
     description: Optional[str] = None
     status: int
     number_of_requests: int
+    upvote: Optional[int] = None
+    created_by_bexio: Optional[bool] = None
     created_at: datetime
     updated_at: Optional[datetime] = None
     

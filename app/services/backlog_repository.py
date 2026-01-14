@@ -165,7 +165,7 @@ async def create_manual_card(
             status=1,
             number_of_requests=0,
             upvote=1,
-            created_by_bexio=False
+            created_by_bexio=True
         )
         db.add(new_card)
         
