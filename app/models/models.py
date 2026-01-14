@@ -1,7 +1,7 @@
 """
 Example Database Model
 """
-from sqlalchemy import Column, Integer, String, DateTime, Boolean, Text, ForeignKey
+from sqlalchemy import Column, Integer, String, DateTime, Boolean, Text, ForeignKey, Float
 from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
@@ -18,6 +18,7 @@ class Application(Base):
     url = Column(String, nullable=False)
     image_url = Column(String, nullable=True)
     price_text = Column(String, nullable=True)
+    rating = Column(Float, nullable=True)
     
     # Relationship to tags
     tags = relationship("AppTag", back_populates="application", lazy="selectin")

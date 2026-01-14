@@ -67,6 +67,7 @@ class ApplicationLinkResponse(BaseModel):
     url: str
     image_url: Optional[str] = None
     price_text: Optional[str] = None
+    rating: Optional[float] = None
     stars: Optional[int] = 0  # default since not in DB
     tags: Any = []  # Accept AppTag objects, will be serialized to list of strings
     
