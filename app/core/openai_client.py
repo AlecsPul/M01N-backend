@@ -95,3 +95,39 @@ async def create_image(
         return [image.url for image in response.data]
     except Exception as e:
         raise Exception(f"Error generating image: {str(e)}")
+
+
+async def normalize_to_english(text: str) -> str:
+    """
+    Normalize text to English using translation if needed.
+    If text is already in English, returns it unchanged.
+    
+    Args:
+        text: Input text in any language
+    
+    Returns:
+        Text in English
+    """
+    try:
+        messages = [
+            {
+                "role": "system",
+                "content": "You are a translation assistant. If the input text is not in English, translate it to English. If it is already in English, return it unchanged. Return ONLY the translated/original text, no explanations."
+            },
+            {
+                "role": "user",
+                "content": text
+            }
+        ]
+        
+        response = await client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=messages,
+            temperature=0.3,
+            max_tokens=500
+        )
+        
+        return response.choices[0].message.content.strip()
+    
+    except Exception as e:
+        raise Exception(f"Error normalizing text to English: {str(e)}")
