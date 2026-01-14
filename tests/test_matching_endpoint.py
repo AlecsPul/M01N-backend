@@ -21,7 +21,7 @@ async def test_matching_endpoint():
         },
         {
             "name": "E-commerce solution",
-            "buyer_prompt": "Quiero una tienda online con pasarela de pagos y gestión de inventario",
+            "buyer_prompt": "Quiero una tienda online con pasarela de pagos y gestión de inventario. Quiero que sea gratuito",
             "top_k": 30,
             "top_n": 5
         },

@@ -63,6 +63,7 @@ FIELD DEFINITIONS:
 • constraints.price_max (number|null):
   - Maximum price the buyer is willing to pay
   - Extract numeric value only (e.g., "CHF 100" → 100, "100 francs" → 100)
+  - If buyer says "gratis", "gratuito", "free", "kostenlos", or "gratuit", set to 0
   - null if no price constraint mentioned
 
 • notes (string):
@@ -76,6 +77,7 @@ EXTRACTION GUIDELINES:
 - If buyer says "would be nice to have analytics", add "Analytics" to labels_nice
 - If buyer says "preferably connects to Shopify", add "Shopify" to integration_nice
 - If buyer says "budget of 50 CHF/month", set price_max to 50
+- If buyer says "gratis", "gratuito", "free" or similar, set price_max to 0
 - Distinguish between must-have and nice-to-have based on language intensity
 - Be conservative: when in doubt, use labels_nice or integration_nice instead of required
 

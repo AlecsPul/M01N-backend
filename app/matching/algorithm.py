@@ -548,7 +548,12 @@ async def run_match(
         )
         
         # Filter: Check price constraint
-        price_max = buyer_struct.get("constraints", {}).get("price_max")
+        price_max_raw = buyer_struct.get("constraints", {}).get("price_max")
+        # Process price_max: if it's a string with "gratis"/"gratuito", convert to 0.0
+        if isinstance(price_max_raw, str):
+            price_max = extract_price_from_text(price_max_raw)
+        else:
+            price_max = price_max_raw
         within_budget = is_within_budget(price_text, price_max)
         
         if not meets_requirements or not within_budget:
