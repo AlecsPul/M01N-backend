@@ -57,6 +57,21 @@ class ItemResponse(ItemBase):
         from_attributes = True
 
 
+# Application Schemas
+class ApplicationLinkResponse(BaseModel):
+    """Schema for application link response"""
+    id: str
+    name: str
+    description: Optional[str] = None
+    url: str
+    image_url: Optional[str] = None
+    price_text: Optional[str] = None
+    stars: Optional[int] = 0  # default since not in DB
+    
+    class Config:
+        from_attributes = True
+
+
 # Generic Response Schemas
 class MessageResponse(BaseModel):
     """Generic message response"""
