@@ -3,7 +3,7 @@ Pydantic Schemas for API validation
 """
 from pydantic import BaseModel, EmailStr, Field, field_serializer
 from datetime import datetime
-from typing import Optional
+from typing import Optional, List, Any
 from uuid import UUID
 
 
@@ -68,11 +68,19 @@ class ApplicationLinkResponse(BaseModel):
     image_url: Optional[str] = None
     price_text: Optional[str] = None
     stars: Optional[int] = 0  # default since not in DB
+    tags: Any = []  # Accept AppTag objects, will be serialized to list of strings
     
     @field_serializer('id')
     def serialize_id(self, value: UUID) -> str:
         """Convert UUID to string for JSON response"""
         return str(value)
+    
+    @field_serializer('tags')
+    def serialize_tags(self, value) -> List[str]:
+        """Extract tag names from AppTag objects"""
+        if not value:
+            return []
+        return [tag.tag for tag in value]
    
     
     class Config:
