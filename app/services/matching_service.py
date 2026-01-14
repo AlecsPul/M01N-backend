@@ -139,6 +139,9 @@ class MatchingService:
         
         Returns:
             Dict with buyer_struct and results list
+        
+        Raises:
+            ValueError: If buyer requirements are invalid (all arrays empty)
         """
         # Step 1: Parse buyer requirements
         buyer_struct = await self.parse_buyer_requirements(buyer_prompt)
@@ -150,7 +153,7 @@ class MatchingService:
         conn = await asyncpg.connect(self.database_url)
         
         try:
-            # Run matching algorithm
+            # Run matching algorithm (will raise ValueError if requirements are invalid)
             matches = await run_match(
                 conn,
                 buyer_struct,

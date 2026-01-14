@@ -484,7 +484,28 @@ async def run_match(
     
     Returns:
         List of dicts with app_id and similarity_percent, sorted by similarity desc
+    
+    Raises:
+        ValueError: If all arrays (labels, tags, integrations) are empty
     """
+    # Step 0: Validate that buyer has at least some requirements
+    labels_must = buyer_struct.get("labels_must", [])
+    labels_nice = buyer_struct.get("labels_nice", [])
+    tag_must = buyer_struct.get("tag_must", [])
+    tag_nice = buyer_struct.get("tag_nice", [])
+    integration_required = buyer_struct.get("integration_required", [])
+    integration_nice = buyer_struct.get("integration_nice", [])
+    
+    has_labels = bool(labels_must or labels_nice)
+    has_tags = bool(tag_must or tag_nice)
+    has_integrations = bool(integration_required or integration_nice)
+    
+    if not (has_labels or has_tags or has_integrations):
+        raise ValueError(
+            "Invalid buyer requirements: at least one of labels, tags, or integrations must be specified. "
+            "Cannot match applications without any criteria."
+        )
+    
     # Step 1: Vector search for top K candidates
     candidates = await get_vector_candidates(conn, buyer_embedding, top_k)
     

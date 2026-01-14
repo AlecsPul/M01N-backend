@@ -115,6 +115,13 @@ async def match_applications(request: MatchRequest):
         )
         
         return result
+    
+    except ValueError as e:
+        # Handle validation errors (e.g., empty requirements)
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail=f"Invalid buyer requirements: {str(e)}"
+        )
         
     except Exception as e:
         raise HTTPException(
