@@ -9,7 +9,7 @@ from uuid import UUID
 
 from app.core.database import get_db
 from app.models.models import Application, Card, CardPromptComment, ApplicationClick, AppTag
-from app.schemas.schemas import ApplicationLinkResponse, ApplicationClickRequest, CardResponse, CardDeleteRequest, CardStatusToggleRequest, CardPromptCommentResponse, CardUpvoteRequest, MessageResponse, ClickStatsResponse, CategoryAnalyticsResponse, TopCategoriesResponse, CategoryClickStats
+from app.schemas.schemas import ApplicationLinkResponse, ApplicationClickRequest, CardResponse, CardDeleteRequest, CardStatusToggleRequest, CardPromptCommentResponse, CardUpvoteRequest, CardCommentCreateRequest, MessageResponse, ClickStatsResponse, CategoryAnalyticsResponse, TopCategoriesResponse, CategoryClickStats
 
 router = APIRouter(prefix="/api/v1", tags=["application"])
 
@@ -177,6 +177,50 @@ async def upvote_card(
     await db.refresh(card)
     
     return card
+
+
+@router.post("/cards/comment", response_model=CardPromptCommentResponse)
+async def create_card_comment(
+    request: CardCommentCreateRequest,
+    db: AsyncSession = Depends(get_db)
+):
+    """Create a comment on a Bexio-created card"""
+    from uuid import uuid4
+    
+    try:
+        card_uuid = UUID(request.card_id)
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Invalid card ID format")
+    
+    # Find the card
+    result = await db.execute(
+        select(Card).where(Card.id == card_uuid)
+    )
+    card = result.scalar_one_or_none()
+    
+    if not card:
+        raise HTTPException(status_code=404, detail="Card not found")
+    
+    # Verify card is created by Bexio
+    if not card.created_by_bexio:
+        raise HTTPException(
+            status_code=403,
+            detail="Comments can only be added to cards created by Bexio"
+        )
+    
+    # Create new comment
+    new_comment = CardPromptComment(
+        id=uuid4(),
+        card_id=card_uuid,
+        prompt_text=request.prompt_text.strip(),
+        comment_text=request.comment_text.strip() if request.comment_text else None
+    )
+    
+    db.add(new_comment)
+    await db.commit()
+    await db.refresh(new_comment)
+    
+    return new_comment
 
 
 @router.post("/application/click", response_model=ApplicationLinkResponse)

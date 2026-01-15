@@ -154,6 +154,13 @@ class CardUpvoteRequest(BaseModel):
     card_id: str = Field(..., description="UUID of the card to upvote")
 
 
+class CardCommentCreateRequest(BaseModel):
+    """Schema for creating a comment on a Bexio-created card"""
+    card_id: str = Field(..., description="UUID of the card to add comment to")
+    prompt_text: str = Field(..., min_length=1, description="The comment/prompt text")
+    comment_text: Optional[str] = Field(None, description="Optional additional comment or clarification")
+
+
 class ApplicationClickRequest(BaseModel):
     """Schema for incrementing application clicks"""
     app_id: str = Field(..., description="UUID of the application to increment clicks")
