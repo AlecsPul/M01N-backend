@@ -106,7 +106,7 @@ async def create_new_card_with_prompt(
             id=uuid4(),
             title=title.strip(),
             description=description.strip(),
-            status=1,
+            status=0,
             number_of_requests=1,
             upvote=1,
             created_by_bexio=False
@@ -162,7 +162,7 @@ async def create_manual_card(
             id=uuid4(),
             title=title.strip(),
             description=description.strip(),
-            status=1,
+            status=0,
             number_of_requests=0,
             upvote=1,
             created_by_bexio=True
