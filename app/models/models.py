@@ -69,6 +69,7 @@ class CardPromptComment(Base):
     card_id = Column(UUID(as_uuid=True), ForeignKey("cards.id", ondelete="CASCADE"), nullable=False, index=True)
     prompt_text = Column(Text, nullable=False)
     comment_text = Column(Text, nullable=True)
+    upvotes = Column(Integer, default=0, nullable=False)
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     updated_at = Column(DateTime(timezone=True), onupdate=func.now())
 
