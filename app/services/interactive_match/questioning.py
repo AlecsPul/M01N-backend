@@ -3,6 +3,7 @@ Interactive Match Questioning
 Question generation and session management for interactive matching.
 """
 import json
+import hashlib
 from typing import Optional, Union
 from pydantic import BaseModel, Field
 from app.core.openai_client import client
@@ -21,6 +22,35 @@ from app.services.session_manager import (
     create_turn,
     update_accumulated_data
 )
+
+
+def _stable_seed(text: str) -> int:
+    """Generate deterministic seed from text using sha256"""
+    return int(hashlib.sha256(text.encode('utf-8')).hexdigest()[:8], 16)
+
+
+def _choose_variant(seed: int, variants: list) -> any:
+    """Deterministically select variant based on seed"""
+    return variants[seed % len(variants)]
+
+
+# Integration examples variants
+INTEGRATION_EXAMPLES_VARIANTS = [
+    ["Stripe", "DATEV", "Shopify", "Zapier", "PayPal", "banks"],
+    ["Salesforce", "QuickBooks", "Slack", "Google Workspace", "Microsoft Teams", "Mailchimp"],
+    ["SAP", "HubSpot", "Xero", "Trello", "Asana", "Dropbox"],
+    ["Zoho", "FreshBooks", "Monday.com", "Notion", "Airtable", "AWS"],
+    ["Oracle", "Pipedrive", "Jira", "Confluence", "GitHub", "GitLab"]
+]
+
+
+# Tag context examples variants
+TAG_CONTEXT_EXAMPLES_VARIANTS = [
+    ["industry", "company size", "region", "business model"],
+    ["sector", "team size", "location", "market segment"],
+    ["vertical", "organization type", "country", "customer type"],
+    ["domain", "company stage", "geography", "use case"]
+]
 
 
 class SessionQuestion(BaseModel):
@@ -68,8 +98,17 @@ async def generate_question_with_ai(
     tags_needed = missing.get("tags_needed", 0)
     integrations_needed = missing.get("integrations_needed", 0)
     
+    # Generate seed from accumulated data to vary examples
+    seed_text = f"{accumulated.labels}{accumulated.tags}{accumulated.integrations}"
+    seed = _stable_seed(seed_text) if seed_text else 0
+    
     if labels_needed > 0:
-        sample_labels = LABEL_CATALOG[:8]
+        # Vary which labels to show as examples
+        start_idx = (seed % max(1, len(LABEL_CATALOG) - 8))
+        sample_labels = LABEL_CATALOG[start_idx:start_idx + 8]
+        if len(sample_labels) < 8:
+            sample_labels = LABEL_CATALOG[:8]
+        
         context = f"""The user needs {labels_needed} more functional labels for their business application.
 
 Current labels: {accumulated.labels}
@@ -79,18 +118,26 @@ Available label options (sample): {sample_labels}
 Generate a question asking what main functions/features they need. Mention 3-4 examples from the available labels but allow free text."""
     
     elif integrations_needed > 0:
+        # Vary integration examples
+        integration_examples = _choose_variant(seed, INTEGRATION_EXAMPLES_VARIANTS)
+        examples_text = ", ".join(integration_examples)
+        
         context = f"""The user needs to specify at least {integrations_needed} integration(s) with external tools/platforms.
 
 Current integrations: {accumulated.integrations}
 
-Generate a question asking which external services or platforms their application must integrate with. Mention common examples like Stripe, DATEV, Shopify, Zapier, banks, PayPal."""
+Generate a question asking which external services or platforms their application must integrate with. Mention common examples like {examples_text}."""
     
     elif tags_needed > 0:
+        # Vary tag context examples
+        tag_examples = _choose_variant(seed, TAG_CONTEXT_EXAMPLES_VARIANTS)
+        examples_text = ", ".join(tag_examples)
+        
         context = f"""The user needs {tags_needed} more tag(s) for business context.
 
 Current tags: {accumulated.tags}
 
-Generate a question asking about their business context - industry, company type, region, or key characteristics. Ask for short keywords."""
+Generate a question asking about their business context - {examples_text}. Ask for short keywords."""
     
     else:
         return "Can you provide any additional details about your requirements?"
@@ -112,12 +159,17 @@ Generate a question asking about their business context - industry, company type
     
     except Exception as e:
         print(f"Question generation error: {e}")
+        # Fallback with varied examples
         if labels_needed > 0:
-            return f"What main functions do you need? (e.g., {', '.join(LABEL_CATALOG[:4])})"
+            start_idx = (seed % max(1, len(LABEL_CATALOG) - 4))
+            sample = LABEL_CATALOG[start_idx:start_idx + 4]
+            return f"What main functions do you need? (e.g., {', '.join(sample)})"
         elif integrations_needed > 0:
-            return "Which external tools must it integrate with? (e.g., Stripe, DATEV, Shopify)"
+            integration_examples = _choose_variant(seed, INTEGRATION_EXAMPLES_VARIANTS)
+            return f"Which external tools must it integrate with? (e.g., {', '.join(integration_examples[:3])})"
         else:
-            return "Can you describe your business context? (e.g., industry, company size, region)"
+            tag_examples = _choose_variant(seed, TAG_CONTEXT_EXAMPLES_VARIANTS)
+            return f"Can you describe your business context? (e.g., {', '.join(tag_examples[:3])})"
 
 
 async def start_session(initial_prompt: str) -> SessionResult:
