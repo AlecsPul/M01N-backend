@@ -139,6 +139,7 @@ class CardPromptCommentResponse(BaseModel):
     card_id: UUID
     prompt_text: str
     comment_text: Optional[str] = None
+    upvotes: int = 0
     created_at: datetime
     updated_at: Optional[datetime] = None
     
@@ -159,6 +160,11 @@ class CardCommentCreateRequest(BaseModel):
     card_id: str = Field(..., description="UUID of the card to add comment to")
     prompt_text: str = Field(..., min_length=1, description="The comment/prompt text")
     comment_text: Optional[str] = Field(None, description="Optional additional comment or clarification")
+
+
+class CardCommentUpvoteRequest(BaseModel):
+    """Schema for upvoting a comment"""
+    comment_id: str = Field(..., description="UUID of the comment to upvote")
 
 
 class ApplicationClickRequest(BaseModel):

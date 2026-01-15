@@ -9,7 +9,7 @@ from uuid import UUID
 
 from app.core.database import get_db
 from app.models.models import Application, Card, CardPromptComment, ApplicationClick, AppTag
-from app.schemas.schemas import ApplicationLinkResponse, ApplicationClickRequest, CardResponse, CardDeleteRequest, CardStatusToggleRequest, CardPromptCommentResponse, CardUpvoteRequest, CardCommentCreateRequest, MessageResponse, ClickStatsResponse, CategoryAnalyticsResponse, TopCategoriesResponse, CategoryClickStats
+from app.schemas.schemas import ApplicationLinkResponse, ApplicationClickRequest, CardResponse, CardDeleteRequest, CardStatusToggleRequest, CardPromptCommentResponse, CardUpvoteRequest, CardCommentCreateRequest, CardCommentUpvoteRequest, MessageResponse, ClickStatsResponse, CategoryAnalyticsResponse, TopCategoriesResponse, CategoryClickStats
 
 router = APIRouter(prefix="/api/v1", tags=["application"])
 
@@ -213,7 +213,8 @@ async def create_card_comment(
         id=uuid4(),
         card_id=card_uuid,
         prompt_text=request.prompt_text.strip(),
-        comment_text=request.comment_text.strip() if request.comment_text else None
+        comment_text=request.comment_text.strip() if request.comment_text else None,
+        upvotes=0
     )
     
     db.add(new_comment)
@@ -221,6 +222,35 @@ async def create_card_comment(
     await db.refresh(new_comment)
     
     return new_comment
+
+
+@router.post("/comments/upvote", response_model=CardPromptCommentResponse)
+async def upvote_comment(
+    request: CardCommentUpvoteRequest,
+    db: AsyncSession = Depends(get_db)
+):
+    """Increment the upvote count for a comment"""
+    try:
+        comment_uuid = UUID(request.comment_id)
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Invalid comment ID format")
+    
+    # Find the comment
+    result = await db.execute(
+        select(CardPromptComment).where(CardPromptComment.id == comment_uuid)
+    )
+    comment = result.scalar_one_or_none()
+    
+    if not comment:
+        raise HTTPException(status_code=404, detail="Comment not found")
+    
+    # Increment upvote count
+    comment.upvotes = (comment.upvotes or 0) + 1
+    
+    await db.commit()
+    await db.refresh(comment)
+    
+    return comment
 
 
 @router.post("/application/click", response_model=ApplicationLinkResponse)
