@@ -418,7 +418,7 @@ def calculate_hybrid_score(
         0.10 * tag_must_overlap +
         0.10 * labels_nice_overlap +
         0.05 * tag_nice_overlap +
-        0.15 * integrations_nice_overlap)*0.3 +0.7
+        0.15 * integrations_nice_overlap)*0.45 +0.55
     )
     
     return score
